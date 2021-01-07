@@ -1,7 +1,5 @@
 ---
-title: "README"
-author: "Shandiya Balasubramaniam"
-output: github_document
+output: rmarkdown::github_document
 ---
 
 ```{r, include=FALSE}

@@ -1,4 +1,5 @@
-# list of colour palettes in feather package
+#' List of colour palettes
+#' @export
 
 feather_palettes <- list(
   pardalote = c("#feca00", "#d36328", "#cb0300", "#b4b9b3", "#424847", "#000100"),
