@@ -10,14 +10,12 @@ library(feather)
 
 This package contains a selection of colour palettes inspired by the plumage of Australian birds.
 
-This package was inspired by the `wesanderson` package developed by [Karthik Ram](https://github.com/karthik/wesanderson).
 
 ## Installation
 
 This package is hosted on GitHub and can be installed using the devtools package:
 
-```{r}
-
+```{r, message=FALSE}
 devtools::install_github("shandiya/feather")
 ```
 
@@ -48,7 +46,7 @@ print_pal(eastern_rosella)
 
 `ggplot`:
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 library(palmerpenguins)
 library(tidyverse)
 
