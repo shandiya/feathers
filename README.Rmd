@@ -63,6 +63,93 @@ plot(penguins$flipper_length_mm, penguins$body_mass_g, col = get_pal("eastern_ro
 ```
 
 
+# Colour palettes
+
+The images below show each palette and the bird that inspired it. 
+
+
+## Eastern Rosella
+
+```{r echo=FALSE, out.height='75%', out.width='75%'}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Platycercus_eximius_diemenensis_male.jpg/800px-Platycercus_eximius_diemenensis_male.jpg")
+```
+
+Image credit: [JJ Harrison](https://www.jjharrison.com.au/). This file is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en). Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Platycercus_eximius_diemenensis_male.jpg). 
+
+
+```{r echo=FALSE}
+er <- get_pal("eastern_rosella")
+
+print_pal(er)
+```
+
+## Plains wanderer
+
+```{r echo=FALSE, out.height='75%', out.width='75%'}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Pedionomus_torquatus%2C_NSW_1.jpg/1024px-Pedionomus_torquatus%2C_NSW_1.jpg")
+```
+
+Image credit: [Patrick_K59](https://www.flickr.com/photos/patrick_k59/14368940377/). This file is licensed under the CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=34831381. Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pedionomus_torquatus,_NSW_1.jpg). 
+
+
+```{r echo=FALSE}
+pw <- get_pal("plains_wanderer")
+
+print_pal(pw)
+```
+
+
+
+## Pardalote
+
+```{r echo=FALSE, out.height='75%', out.width='75%'}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Pardalotus_with_nesting_material.jpg/1024px-Pardalotus_with_nesting_material.jpg")
+```
+
+Image credit: [Fir0002 - Own work, GFDL 1.2](https://commons.wikimedia.org/w/index.php?curid=1535942). This file is licensed under the
+[Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons), [Attribution NonCommercial Unported 3.0](https://creativecommons.org/licenses/by-nc/3.0/). Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pardalotus_with_nesting_material.jpg). 
+
+
+```{r echo=FALSE}
+p <- get_pal("pardalote")
+
+print_pal(p)
+```
+
+
+
+## Rose crowned fruit dove
+
+```{r echo=FALSE, out.height='60%', out.width='60%'}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Rose-Crowned_Fruit_Dove.jpg/800px-Rose-Crowned_Fruit_Dove.jpg")
+```
+
+Image credit: [Bjørn Christian Tørrissen](http://bjornfree.com/galleries.html), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=6874281
+
+
+
+```{r echo=FALSE}
+rcfd <- get_pal("rose_crowned_fruit_dove")
+
+print_pal(rcfd)
+```
+
+## Bee eater
+
+```{r echo=FALSE, out.height='50%', out.width='50%'}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Merops_ornatus_-_Centenary_Lakes.jpg/800px-Merops_ornatus_-_Centenary_Lakes.jpg")
+```
+
+
+Image credit: [JJ Harrison](https://www.jjharrison.com.au/). This file is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en). Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Merops_ornatus_-_Centenary_Lakes.jpg). 
+
+```{r echo=FALSE}
+be<- get_pal("bee_eater")
+
+print_pal(be)
+```
+
+
 ## Contribute
 
 If you would like to contribute to this package or have suggestions for improvement, please contact [@ShandiyaB](https://twitter.com/ShandiyaB) on Twitter or submit a pull request. 
