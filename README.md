@@ -16,3 +16,5 @@ Colour palettes are stored as a list called `feather_palettes`, and can be acces
 library(feather)
 names(feather_palettes)
 ```
+[1] "pardalote"               "plains_wanderer"         "bee_eater"              
+[4] "rose_crowned_fruit_dove" "eastern_rosella"   
