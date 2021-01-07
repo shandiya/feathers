@@ -1,5 +1,5 @@
 ---
-output: rmarkdown::github_document
+output: github_document
 ---
 
 ```{r, include=FALSE}
@@ -15,7 +15,7 @@ This package contains a selection of colour palettes inspired by the plumage of 
 
 This package is hosted on GitHub and can be installed using the devtools package:
 
-```{r, message=FALSE}
+```{r, message=FALSE, warning=FALSE}
 devtools::install_github("shandiya/feather")
 ```
 

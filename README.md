@@ -1,5 +1,5 @@
 ---
-output: rmarkdown::github_document
+output: github_document
 ---
 
 
@@ -16,17 +16,6 @@ This package is hosted on GitHub and can be installed using the devtools package
 
 ```r
 devtools::install_github("shandiya/feather")
-```
-
-```
-##          checking for file 'C:\Users\Shandiya\AppData\Local\Temp\RtmpusQGPh\remotes30c82f673eac\shandiya-feather-d579b9a/DESCRIPTION' ...  v  checking for file 'C:\Users\Shandiya\AppData\Local\Temp\RtmpusQGPh\remotes30c82f673eac\shandiya-feather-d579b9a/DESCRIPTION' (365ms)
-##       -  preparing 'feather':
-##    checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   v  checking DESCRIPTION meta-information
-##       -  checking for LF line-endings in source and make files and shell scripts
-##   -  checking for empty or unneeded directories
-##   -  building 'feather_0.0.0.9000.tar.gz'
-##      
-## 
 ```
 
 
