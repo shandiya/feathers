@@ -23,7 +23,7 @@ library(feather)
 names(feather_palettes)
 ```
 
-    ## [1] "pardalote"               "plains_wanderer"        
+    ## [1] "spotted_pardalote"       "plains_wanderer"        
     ## [3] "bee_eater"               "rose_crowned_fruit_dove"
     ## [5] "eastern_rosella"
 
@@ -52,7 +52,7 @@ print_pal(eastern_rosella)
 
 ``` r
 library(palmerpenguins)
-library(tidyverse)
+library(ggplot2)
 
 ggplot(penguins) +
   geom_point(aes(flipper_length_mm, body_mass_g, colour = species)) +
@@ -70,11 +70,11 @@ plot(penguins$flipper_length_mm, penguins$body_mass_g, col = get_pal("eastern_ro
 
 ![](README_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
-# Colour palettes
+## Colour palettes
 
 The images below show each palette and the bird that inspired it.
 
-## Eastern Rosella
+### Eastern Rosella (*Platycercus eximius*)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Platycercus_eximius_diemenensis_male.jpg/800px-Platycercus_eximius_diemenensis_male.jpg" width="75%" height="75%" />
 
@@ -88,45 +88,51 @@ Commons](https://commons.wikimedia.org/wiki/File:Platycercus_eximius_diemenensis
 
 ![](README_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
-## Plains wanderer
+### Plains-wanderer (*Pedionomus torquatus*)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Pedionomus_torquatus%2C_NSW_2.jpg" width="75%" height="75%" />
 
 Image credit:
 [Patrick\_K59](https://www.flickr.com/photos/patrick_k59/14345250300/in/photostream/).
-This file is licensed under the CC BY 2.0,
-<https://commons.wikimedia.org/w/index.php?curid=34831381>. Image
-source: [Wikimedia
+This file is licensed under the [Creative
+Commons](https://en.wikipedia.org/wiki/Creative_Commons)
+[Attribution 2.0
+Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license.
+Image source: [Wikimedia
 Commons](https://commons.wikimedia.org/wiki/File:Pedionomus_torquatus,_NSW_2.jpg).
 
 ![](README_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
-## Pardalote
+### Spotted Pardalote (*Pardalotus punctatus*)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Pardalotus_with_nesting_material.jpg/1024px-Pardalotus_with_nesting_material.jpg" width="75%" height="75%" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2819205338781%29.jpg/1024px-Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2819205338781%29.jpg" width="75%" height="75%" />
 
-Image credit: [Fir0002 - Own work,
-GFDL 1.2](https://commons.wikimedia.org/w/index.php?curid=1535942). This
-file is licensed under the [Creative
-Commons](https://en.wikipedia.org/wiki/Creative_Commons), [Attribution
-NonCommercial
-Unported 3.0](https://creativecommons.org/licenses/by-nc/3.0/). Image
-source: [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Pardalotus_with_nesting_material.jpg).
+Image credit:
+[Patrick\_K59](https://www.flickr.com/people/63175631@N02). This file is
+licensed under the [Creative
+Commons](https://en.wikipedia.org/wiki/Creative_Commons)
+[Attribution 2.0
+Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license.
+Image source: [Wikimedia
+Commons](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_\(Pardalotus_punctatus\)_male_\(19205338781\).jpg)
 
 ![](README_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
 
-## Rose crowned fruit dove
+### Rose-crowned Fruit-Dove (*Ptilinopus regina*)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Rose-Crowned_Fruit_Dove.jpg/800px-Rose-Crowned_Fruit_Dove.jpg" width="60%" height="60%" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_%289098717408%29.jpg" width="60%" height="60%" />
 
-Image credit: [Bjørn Christian
-Tørrissen](http://bjornfree.com/galleries.html), CC BY-SA 3.0,
-<https://commons.wikimedia.org/w/index.php?curid=6874281>
+Image credit: [Sheba\_Also](https://www.flickr.com/people/34534185@N00).
+This file is licensed under the [Creative
+Commons](https://en.wikipedia.org/wiki/Creative_Commons)
+[Attribution 2.0
+Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license.
+Image source: [Wikimedia
+Commons](https://commons.m.wikimedia.org/wiki/File:Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_\(9098717408\).jpg)
 
 ![](README_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
 
-## Bee eater
+### Rainbow Bee-eater (*Merops ornatus*)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Merops_ornatus_-_Centenary_Lakes.jpg/800px-Merops_ornatus_-_Centenary_Lakes.jpg" width="50%" height="50%" />
 
@@ -143,6 +149,5 @@ Commons](https://commons.wikimedia.org/wiki/File:Merops_ornatus_-_Centenary_Lake
 ## Contribute
 
 If you would like to contribute to this package or have suggestions for
-improvement, please contact
-\[@ShandiyaB\](<https://twitter.com/ShandiyaB>) on Twitter or submit a
-pull request.
+improvement, please contact [ShandiyaB](https://twitter.com/ShandiyaB)
+on Twitter or submit a pull request.

@@ -16,6 +16,6 @@ A vector of hex colour codes
 This function returns colour palettes based on Australian birds
 }
 \examples{
-get_pal("pardalote")
-get_pal("gang-gang")
+get_pal("spotted_pardalote")
+get_pal("bee_eater")
 }

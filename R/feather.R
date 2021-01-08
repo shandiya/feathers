@@ -17,8 +17,8 @@ feather_palettes <- list(
 #' @return A vector of hex colour codes
 #' @export
 #' @examples
-#' get_pal("pardalote")
-#' get_pal("gang-gang")
+#' get_pal("spotted_pardalote")
+#' get_pal("bee_eater")
 
 get_pal <- function(palette_name) {
 

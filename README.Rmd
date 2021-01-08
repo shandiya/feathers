@@ -48,7 +48,7 @@ print_pal(eastern_rosella)
 
 ```{r, message=FALSE, warning=FALSE}
 library(palmerpenguins)
-library(tidyverse)
+library(ggplot2)
 
 ggplot(penguins) +
   geom_point(aes(flipper_length_mm, body_mass_g, colour = species)) +
@@ -63,12 +63,11 @@ plot(penguins$flipper_length_mm, penguins$body_mass_g, col = get_pal("eastern_ro
 ```
 
 
-# Colour palettes
+## Colour palettes
 
 The images below show each palette and the bird that inspired it. 
 
-
-## Eastern Rosella
+### Eastern Rosella (*Platycercus eximius*)
 
 ```{r echo=FALSE, out.height='75%', out.width='75%'}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Platycercus_eximius_diemenensis_male.jpg/800px-Platycercus_eximius_diemenensis_male.jpg")
@@ -76,21 +75,19 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/3/
 
 Image credit: [JJ Harrison](https://www.jjharrison.com.au/). This file is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en). Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Platycercus_eximius_diemenensis_male.jpg). 
 
-
 ```{r echo=FALSE}
 er <- get_pal("eastern_rosella")
 
 print_pal(er)
 ```
 
-## Plains wanderer
+### Plains-wanderer (*Pedionomus torquatus*)
 
 ```{r echo=FALSE, out.height='75%', out.width='75%'}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/e/e3/Pedionomus_torquatus%2C_NSW_2.jpg")
 ```
 
-Image credit: [Patrick_K59](https://www.flickr.com/photos/patrick_k59/14345250300/in/photostream/). This file is licensed under the CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=34831381. Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pedionomus_torquatus,_NSW_2.jpg). 
-
+Image credit: [Patrick_K59](https://www.flickr.com/photos/patrick_k59/14345250300/in/photostream/). This file is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution 2.0 Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license. Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pedionomus_torquatus,_NSW_2.jpg). 
 
 ```{r echo=FALSE}
 pw <- get_pal("plains_wanderer")
@@ -98,35 +95,27 @@ pw <- get_pal("plains_wanderer")
 print_pal(pw)
 ```
 
-
-
-## Pardalote
+### Spotted Pardalote (*Pardalotus punctatus*)
 
 ```{r echo=FALSE, out.height='75%', out.width='75%'}
-knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Pardalotus_with_nesting_material.jpg/1024px-Pardalotus_with_nesting_material.jpg")
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2819205338781%29.jpg/1024px-Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2819205338781%29.jpg")
 ```
 
-Image credit: [Fir0002 - Own work, GFDL 1.2](https://commons.wikimedia.org/w/index.php?curid=1535942). This file is licensed under the
-[Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons), [Attribution NonCommercial Unported 3.0](https://creativecommons.org/licenses/by-nc/3.0/). Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pardalotus_with_nesting_material.jpg). 
-
+Image credit: [Patrick_K59](https://www.flickr.com/people/63175631@N02). This file is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution 2.0 Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license. Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_(Pardalotus_punctatus)_male_(19205338781).jpg)
 
 ```{r echo=FALSE}
-p <- get_pal("pardalote")
+sp <- get_pal("spotted_pardalote")
 
-print_pal(p)
+print_pal(sp)
 ```
 
-
-
-## Rose crowned fruit dove
+### Rose-crowned Fruit-Dove (*Ptilinopus regina*)
 
 ```{r echo=FALSE, out.height='60%', out.width='60%'}
-knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Rose-Crowned_Fruit_Dove.jpg/800px-Rose-Crowned_Fruit_Dove.jpg")
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/7/72/Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_%289098717408%29.jpg")
 ```
 
-Image credit: [Bjørn Christian Tørrissen](http://bjornfree.com/galleries.html), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=6874281
-
-
+Image credit: [Sheba_Also](https://www.flickr.com/people/34534185@N00). This file is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution 2.0 Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license. Image source: [Wikimedia Commons](https://commons.m.wikimedia.org/wiki/File:Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_(9098717408).jpg)
 
 ```{r echo=FALSE}
 rcfd <- get_pal("rose_crowned_fruit_dove")
@@ -134,12 +123,11 @@ rcfd <- get_pal("rose_crowned_fruit_dove")
 print_pal(rcfd)
 ```
 
-## Bee eater
+### Rainbow Bee-eater (*Merops ornatus*)
 
 ```{r echo=FALSE, out.height='50%', out.width='50%'}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Merops_ornatus_-_Centenary_Lakes.jpg/800px-Merops_ornatus_-_Centenary_Lakes.jpg")
 ```
-
 
 Image credit: [JJ Harrison](https://www.jjharrison.com.au/). This file is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en). Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Merops_ornatus_-_Centenary_Lakes.jpg). 
 
@@ -152,7 +140,7 @@ print_pal(be)
 
 ## Contribute
 
-If you would like to contribute to this package or have suggestions for improvement, please contact [@ShandiyaB](https://twitter.com/ShandiyaB) on Twitter or submit a pull request. 
+If you would like to contribute to this package or have suggestions for improvement, please contact [ShandiyaB](https://twitter.com/ShandiyaB) on Twitter or submit a pull request. 
 
 
 
