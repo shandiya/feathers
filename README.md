@@ -44,7 +44,7 @@ eastern_rosella <- get_pal("eastern_rosella")
 print_pal(eastern_rosella)
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+<img src="README_files/figure-gfm/unnamed-chunk-5-1.png" style="display: block; margin: auto;" />
 
 ## Examples
 
@@ -59,7 +59,7 @@ ggplot(penguins) +
   scale_colour_manual(values = get_pal("eastern_rosella"))
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+<img src="README_files/figure-gfm/unnamed-chunk-6-1.png" style="display: block; margin: auto;" />
 
 base `R`:
 
@@ -68,7 +68,7 @@ library(palmerpenguins)
 plot(penguins$flipper_length_mm, penguins$body_mass_g, col = get_pal("eastern_rosella")[factor(penguins$species)], pch = 19)
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+<img src="README_files/figure-gfm/unnamed-chunk-7-1.png" style="display: block; margin: auto;" />
 
 ## Colour palettes
 

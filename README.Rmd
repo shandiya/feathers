@@ -36,7 +36,7 @@ get_pal("eastern_rosella")
 
 `print_pal` is a function that displays the colour palette in the plots pane.
 
-```{r}
+```{r, fig.height=3, fig.width=6, fig.align='center'}
 eastern_rosella <- get_pal("eastern_rosella")
 print_pal(eastern_rosella)
 ```
@@ -45,7 +45,7 @@ print_pal(eastern_rosella)
 
 `ggplot`:
 
-```{r, message=FALSE, warning=FALSE}
+```{r, message=FALSE, warning=FALSE, fig.height=5, fig.width=8, fig.align='center'}
 library(palmerpenguins)
 library(ggplot2)
 
@@ -56,7 +56,7 @@ ggplot(penguins) +
 
 base `R`:
 
-```{r}
+```{r, message=FALSE, warning=FALSE, fig.height=5, fig.width=8, fig.align='center'}
 library(palmerpenguins)
 plot(penguins$flipper_length_mm, penguins$body_mass_g, col = get_pal("eastern_rosella")[factor(penguins$species)], pch = 19)
 ```
