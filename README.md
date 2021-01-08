@@ -1,5 +1,5 @@
-
-## Introduction
+feather
+================
 
 This package contains a selection of colour palettes inspired by the
 plumage of Australian birds.
@@ -74,77 +74,71 @@ plot(penguins$flipper_length_mm, penguins$body_mass_g, col = get_pal("eastern_ro
 
 The images below show each palette and the bird that inspired it.
 
-### Eastern Rosella (*Platycercus eximius*)
+#### Eastern Rosella (*Platycercus eximius*)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Platycercus_eximius_diemenensis_male.jpg/800px-Platycercus_eximius_diemenensis_male.jpg" width="75%" height="75%" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Platycercus_eximius_diemenensis_male.jpg/800px-Platycercus_eximius_diemenensis_male.jpg" width="50%" /><img src="README_files/figure-gfm/unnamed-chunk-8-2.png" width="50%" />
 
-Image credit: [JJ Harrison](https://www.jjharrison.com.au/). This file
-is licensed under the [Creative
-Commons](https://en.wikipedia.org/wiki/Creative_Commons)
-[Attribution-Share Alike 3.0 Unported
-license](https://creativecommons.org/licenses/by-sa/3.0/deed.en). Image
-source: [Wikimedia
+<span style="color: grey; font-size: 8pt">Image credit: [JJ
+Harrison](https://www.jjharrison.com.au/) from [Wikimedia
 Commons](https://commons.wikimedia.org/wiki/File:Platycercus_eximius_diemenensis_male.jpg).
-
-![](README_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
-
-### Plains-wanderer (*Pedionomus torquatus*)
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Pedionomus_torquatus%2C_NSW_2.jpg" width="75%" height="75%" />
-
-Image credit:
-[Patrick\_K59](https://www.flickr.com/photos/patrick_k59/14345250300/in/photostream/).
 This file is licensed under the [Creative
-Commons](https://en.wikipedia.org/wiki/Creative_Commons)
-[Attribution 2.0
-Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license.
-Image source: [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Pedionomus_torquatus,_NSW_2.jpg).
-
-![](README_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
-
-### Spotted Pardalote (*Pardalotus punctatus*)
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2819205338781%29.jpg/1024px-Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2819205338781%29.jpg" width="75%" height="75%" />
-
-Image credit:
-[Patrick\_K59](https://www.flickr.com/people/63175631@N02). This file is
-licensed under the [Creative
-Commons](https://en.wikipedia.org/wiki/Creative_Commons)
-[Attribution 2.0
-Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license.
-Image source: [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_\(Pardalotus_punctatus\)_male_\(19205338781\).jpg)
-
-![](README_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
-
-### Rose-crowned Fruit-Dove (*Ptilinopus regina*)
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_%289098717408%29.jpg" width="60%" height="60%" />
-
-Image credit: [Sheba\_Also](https://www.flickr.com/people/34534185@N00).
-This file is licensed under the [Creative
-Commons](https://en.wikipedia.org/wiki/Creative_Commons)
-[Attribution 2.0
-Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license.
-Image source: [Wikimedia
-Commons](https://commons.m.wikimedia.org/wiki/File:Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_\(9098717408\).jpg)
-
-![](README_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
-
-### Rainbow Bee-eater (*Merops ornatus*)
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Merops_ornatus_-_Centenary_Lakes.jpg/800px-Merops_ornatus_-_Centenary_Lakes.jpg" width="50%" height="50%" />
-
-Image credit: [JJ Harrison](https://www.jjharrison.com.au/). This file
-is licensed under the [Creative
 Commons](https://en.wikipedia.org/wiki/Creative_Commons)
 [Attribution-Share Alike 3.0 Unported
-license](https://creativecommons.org/licenses/by-sa/3.0/deed.en). Image
-source: [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Merops_ornatus_-_Centenary_Lakes.jpg).
+license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span>
 
-![](README_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+#### Plains-wanderer (*Pedionomus torquatus*)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Pedionomus_torquatus%2C_NSW_2.jpg" width="50%" /><img src="README_files/figure-gfm/unnamed-chunk-9-2.png" width="50%" />
+
+<span style="color: grey; font-size: 8pt">Image credit:
+[Patrick\_K59](https://www.flickr.com/photos/patrick_k59/14345250300/in/photostream/)
+from [Wikimedia
+Commons](https://commons.wikimedia.org/wiki/File:Pedionomus_torquatus,_NSW_2.jpg).
+This file is licensed under the [Creative
+Commons](https://en.wikipedia.org/wiki/Creative_Commons)
+[Attribution 2.0
+Generic](https://creativecommons.org/licenses/by/2.0/deed.en)
+license.</span>
+
+#### Spotted Pardalote (*Pardalotus punctatus*)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2819205338781%29.jpg/1024px-Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2819205338781%29.jpg" width="50%" /><img src="README_files/figure-gfm/unnamed-chunk-10-2.png" width="50%" />
+
+<span style="color: grey; font-size: 8pt">Image credit:
+[Patrick\_K59](https://www.flickr.com/people/63175631@N02) from
+[Wikimedia
+Commons](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_\(Pardalotus_punctatus\)_male_\(19205338781\).jpg).
+This file is licensed under the [Creative
+Commons](https://en.wikipedia.org/wiki/Creative_Commons)
+[Attribution 2.0
+Generic](https://creativecommons.org/licenses/by/2.0/deed.en)
+license.</span>
+
+#### Rose-crowned Fruit-Dove (*Ptilinopus regina*)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_%289098717408%29.jpg" width="50%" /><img src="README_files/figure-gfm/unnamed-chunk-11-2.png" width="50%" />
+
+<span style="color: grey; font-size: 8pt">Image credit:
+[Sheba\_Also](https://www.flickr.com/people/34534185@N00) from
+[Wikimedia
+Commons](https://commons.m.wikimedia.org/wiki/File:Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_\(9098717408\).jpg).
+This file is licensed under the [Creative
+Commons](https://en.wikipedia.org/wiki/Creative_Commons)
+[Attribution 2.0
+Generic](https://creativecommons.org/licenses/by/2.0/deed.en)
+license.</span>
+
+#### Rainbow Bee-eater (*Merops ornatus*)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Merops_ornatus_-_Centenary_Lakes.jpg/800px-Merops_ornatus_-_Centenary_Lakes.jpg" width="50%" /><img src="README_files/figure-gfm/unnamed-chunk-12-2.png" width="50%" />
+
+<span style="color: grey; font-size: 8pt">Image credit: [JJ
+Harrison](https://www.jjharrison.com.au/) from [Wikimedia
+Commons](https://commons.wikimedia.org/wiki/File:Merops_ornatus_-_Centenary_Lakes.jpg).
+This file is licensed under the [Creative
+Commons](https://en.wikipedia.org/wiki/Creative_Commons)
+[Attribution-Share Alike 3.0 Unported
+license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span>
 
 ## Contribute
 
