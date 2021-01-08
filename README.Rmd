@@ -86,10 +86,10 @@ print_pal(er)
 ## Plains wanderer
 
 ```{r echo=FALSE, out.height='75%', out.width='75%'}
-knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Pedionomus_torquatus%2C_NSW_1.jpg/1024px-Pedionomus_torquatus%2C_NSW_1.jpg")
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/e/e3/Pedionomus_torquatus%2C_NSW_2.jpg")
 ```
 
-Image credit: [Patrick_K59](https://www.flickr.com/photos/patrick_k59/14368940377/). This file is licensed under the CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=34831381. Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pedionomus_torquatus,_NSW_1.jpg). 
+Image credit: [Patrick_K59](https://www.flickr.com/photos/patrick_k59/14345250300/in/photostream/). This file is licensed under the CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=34831381. Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pedionomus_torquatus,_NSW_2.jpg). 
 
 
 ```{r echo=FALSE}

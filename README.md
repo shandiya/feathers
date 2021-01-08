@@ -90,14 +90,14 @@ Commons](https://commons.wikimedia.org/wiki/File:Platycercus_eximius_diemenensis
 
 ## Plains wanderer
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Pedionomus_torquatus%2C_NSW_1.jpg/1024px-Pedionomus_torquatus%2C_NSW_1.jpg" width="75%" height="75%" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Pedionomus_torquatus%2C_NSW_2.jpg" width="75%" height="75%" />
 
 Image credit:
-[Patrick\_K59](https://www.flickr.com/photos/patrick_k59/14368940377/).
+[Patrick\_K59](https://www.flickr.com/photos/patrick_k59/14345250300/in/photostream/).
 This file is licensed under the CC BY 2.0,
 <https://commons.wikimedia.org/w/index.php?curid=34831381>. Image
 source: [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Pedionomus_torquatus,_NSW_1.jpg).
+Commons](https://commons.wikimedia.org/wiki/File:Pedionomus_torquatus,_NSW_2.jpg).
 
 ![](README_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
@@ -105,13 +105,13 @@ Commons](https://commons.wikimedia.org/wiki/File:Pedionomus_torquatus,_NSW_1.jpg
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Pardalotus_with_nesting_material.jpg/1024px-Pardalotus_with_nesting_material.jpg" width="75%" height="75%" />
 
-Image credit: [Fir0002 - Own work, GFDL
-1.2](https://commons.wikimedia.org/w/index.php?curid=1535942). This file
-is licensed under the [Creative
+Image credit: [Fir0002 - Own work,
+GFDL 1.2](https://commons.wikimedia.org/w/index.php?curid=1535942). This
+file is licensed under the [Creative
 Commons](https://en.wikipedia.org/wiki/Creative_Commons), [Attribution
-NonCommercial Unported
-3.0](https://creativecommons.org/licenses/by-nc/3.0/). Image source:
-[Wikimedia
+NonCommercial
+Unported 3.0](https://creativecommons.org/licenses/by-nc/3.0/). Image
+source: [Wikimedia
 Commons](https://commons.wikimedia.org/wiki/File:Pardalotus_with_nesting_material.jpg).
 
 ![](README_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
@@ -146,4 +146,3 @@ If you would like to contribute to this package or have suggestions for
 improvement, please contact
 \[@ShandiyaB\](<https://twitter.com/ShandiyaB>) on Twitter or submit a
 pull request.
-

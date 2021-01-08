@@ -2,7 +2,7 @@
 #' @export
 
 feather_palettes <- list(
-  pardalote = c("#feca00", "#d36328", "#cb0300", "#b4b9b3", "#424847", "#000100"),
+  spotted_pardalote = c("#feca00", "#d36328", "#cb0300", "#b4b9b3", "#424847", "#000100"),
   plains_wanderer = c("#edd8c5", "#d09a5e", "#e7aa01", "#ac570f", "#73481b", "#442c0e", "#0d0403"),
   bee_eater = c("#00346E", "#007CBF", "#06ABDF", "#EDD03E", "#F5A200", "#6D8600", "#424D0C"),
   rose_crowned_fruit_dove = c("#BD338F", "#EB8252", "#F5DC83", "#CDD4DC", "#8098A2", "#8FA33F", "#5F7929", "#014820"),
