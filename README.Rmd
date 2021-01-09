@@ -119,12 +119,23 @@ print_pal(rcfd)
 ```{r echo=FALSE, out.width=c('50%', '50%'), fig.show='hold'}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Merops_ornatus_-_Centenary_Lakes.jpg/800px-Merops_ornatus_-_Centenary_Lakes.jpg")
 
-be<- get_pal("bee_eater")
+be <- get_pal("bee_eater")
 print_pal(be)
 ```
 
-
 <span style="color: grey; font-size: 8pt">Image credit: [JJ Harrison](https://www.jjharrison.com.au/) from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Merops_ornatus_-_Centenary_Lakes.jpg). This file is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span> 
+
+
+### Olive-backed Oriole (*Oriolus sagittatus*)
+
+```{r echo=FALSE, out.width=c('50%', '50%'), fig.show='hold'}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/8/82/Oriolus_sagittatus_-Canberra%2C_Australia-8a.jpg")
+
+obo <- get_pal("oriole")
+print_pal(obo)
+```
+
+<span style="color: grey; font-size: 8pt">Image credit: [Duncan McCaskill](https://get.google.com/albumarchive/pwa/duncan.mccaskill) from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Oriolus_sagittatus_-Canberra,_Australia-8a.jpg). This file is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span>
 
 
 ## Contribute

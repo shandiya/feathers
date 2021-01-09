@@ -25,7 +25,7 @@ names(feather_palettes)
 
     ## [1] "spotted_pardalote"       "plains_wanderer"        
     ## [3] "bee_eater"               "rose_crowned_fruit_dove"
-    ## [5] "eastern_rosella"
+    ## [5] "eastern_rosella"         "oriole"
 
 `get_pal` is a function that returns the chosen palette as a vector of
 hex colour codes.
@@ -135,6 +135,19 @@ license.</span>
 <span style="color: grey; font-size: 8pt">Image credit: [JJ
 Harrison](https://www.jjharrison.com.au/) from [Wikimedia
 Commons](https://commons.wikimedia.org/wiki/File:Merops_ornatus_-_Centenary_Lakes.jpg).
+This file is licensed under the [Creative
+Commons](https://en.wikipedia.org/wiki/Creative_Commons)
+[Attribution-Share Alike 3.0 Unported
+license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span>
+
+### Olive-backed Oriole (*Oriolus sagittatus*)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Oriolus_sagittatus_-Canberra%2C_Australia-8a.jpg" width="50%" /><img src="README_files/figure-gfm/unnamed-chunk-13-2.png" width="50%" />
+
+<span style="color: grey; font-size: 8pt">Image credit: [Duncan
+McCaskill](https://get.google.com/albumarchive/pwa/duncan.mccaskill)
+from [Wikimedia
+Commons](https://commons.wikimedia.org/wiki/File:Oriolus_sagittatus_-Canberra,_Australia-8a.jpg).
 This file is licensed under the [Creative
 Commons](https://en.wikipedia.org/wiki/Creative_Commons)
 [Attribution-Share Alike 3.0 Unported
