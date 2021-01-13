@@ -7,7 +7,8 @@ feather_palettes <- list(
   bee_eater = c("#00346E", "#007CBF", "#06ABDF", "#EDD03E", "#F5A200", "#6D8600", "#424D0C"),
   rose_crowned_fruit_dove = c("#BD338F", "#EB8252", "#F5DC83", "#CDD4DC", "#8098A2", "#8FA33F", "#5F7929", "#014820"),
   eastern_rosella = c("#cd3122", "#f4c623", "#bee183", "#6c905e", "#2f533c", "#b8c9dc", "#2f7ab9"),
-  oriole = c("#8a3223", "#bb5645", "#d97878", "#e2aba0", "#d0cfe9", "#a29eb8", "#6c6b75", "#b8a53f", "#93862a", "#4d4019")
+  oriole = c("#8a3223", "#bb5645", "#d97878", "#e2aba0", "#d0cfe9", "#a29eb8", "#6c6b75", "#b8a53f", "#93862a", "#4d4019"),
+  princess_parrot = c("#7090c9", "#8cb3de", "#afbe9f", "#616020", "#6eb245", "#214917", "#cf2236", "#d683ad")
 )
 
 
