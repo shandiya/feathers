@@ -73,42 +73,7 @@ The images below show each palette and the bird that inspired it.
 
 #### Eastern Rosella (*Platycercus eximius*)
 
-<style>
-.column-left{
-  float: left;
-  width: 33%;
-  text-align: left;
-}
-.column-center{
-  display: inline-block;
-  width: 33%;
-  text-align: center;
-}
-.column-right{
-  float: right;
-  width: 33%;
-  text-align: right;
-}
-</style>
-
-<div class="column-left">
-
-![](https://upload.wikimedia.org/wikipedia/commons/3/33/Platycercus_eximius_diemenensis_male.jpg)<!-- -->
-
-</div>
-
-<div class="column-center">
-
-![](README_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
-
-</div>
-
-<div class="column-right">
-
-![](README_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
-
-</div>
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Platycercus_eximius_diemenensis_male.jpg" width="33%" /><img src="README_files/figure-gfm/rosella-2.png" width="33%" /><img src="README_files/figure-gfm/rosella-3.png" width="33%" />
 <span style="color: grey; font-size: 8pt">Image credit: [JJ
 Harrison](https://www.jjharrison.com.au/) from [Wikimedia
 Commons](https://commons.wikimedia.org/wiki/File:Platycercus_eximius_diemenensis_male.jpg).
@@ -119,24 +84,7 @@ license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span>
 
 #### Plains-wanderer (*Pedionomus torquatus*)
 
-<div class="column-left">
-
-![](https://upload.wikimedia.org/wikipedia/commons/1/1c/Plains-wanderer_%28Pedionomus_torquatus%29_7_%2830547426803%29.jpg)<!-- -->
-
-</div>
-
-<div class="column-center">
-
-![](README_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
-
-</div>
-
-<div class="column-right">
-
-![](README_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
-
-</div>
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Plains-wanderer_%28Pedionomus_torquatus%29_7_%2830547426803%29.jpg" width="33%" /><img src="README_files/figure-gfm/pdubs-2.png" width="33%" /><img src="README_files/figure-gfm/pdubs-3.png" width="33%" />
 <span style="color: grey; font-size: 8pt">Image credit: [Dominic
 Sherony](https://www.flickr.com/people/9765210@N03) from [Wikimedia
 Commons](https://commons.wikimedia.org/wiki/File:Plains-wanderer_\(Pedionomus_torquatus\)_7_\(30547426803\).jpg).
@@ -148,24 +96,7 @@ license.</span>
 
 #### Spotted Pardalote (*Pardalotus punctatus*)
 
-<div class="column-left">
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2819205338781%29.jpg/1024px-Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2819205338781%29.jpg)<!-- -->
-
-</div>
-
-<div class="column-center">
-
-![](README_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
-
-</div>
-
-<div class="column-right">
-
-![](README_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
-
-</div>
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2819205338781%29.jpg/1024px-Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2819205338781%29.jpg" width="33%" /><img src="README_files/figure-gfm/spotty-2.png" width="33%" /><img src="README_files/figure-gfm/spotty-3.png" width="33%" />
 <span style="color: grey; font-size: 8pt">Image credit:
 [Patrick\_K59](https://www.flickr.com/people/63175631@N02) from
 [Wikimedia
@@ -178,24 +109,7 @@ license.</span>
 
 #### Rose-crowned Fruit-Dove (*Ptilinopus regina*)
 
-<div class="column-left">
-
-![](https://upload.wikimedia.org/wikipedia/commons/7/72/Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_%289098717408%29.jpg)<!-- -->
-
-</div>
-
-<div class="column-center">
-
-![](README_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
-
-</div>
-
-<div class="column-right">
-
-![](README_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
-
-</div>
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_%289098717408%29.jpg" width="33%" /><img src="README_files/figure-gfm/sweetpea-2.png" width="33%" /><img src="README_files/figure-gfm/sweetpea-3.png" width="33%" />
 <span style="color: grey; font-size: 8pt">Image credit:
 [Sheba\_Also](https://www.flickr.com/people/34534185@N00) from
 [Wikimedia
@@ -208,24 +122,7 @@ license.</span>
 
 #### Rainbow Bee-eater (*Merops ornatus*)
 
-<div class="column-left">
-
-![](https://upload.wikimedia.org/wikipedia/commons/2/26/Rainbow_bee_eater_%289847155264%29.jpg)<!-- -->
-
-</div>
-
-<div class="column-center">
-
-![](README_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
-
-</div>
-
-<div class="column-right">
-
-![](README_files/figure-gfm/unnamed-chunk-21-1.png)<!-- -->
-
-</div>
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Rainbow_bee_eater_%289847155264%29.jpg" width="33%" /><img src="README_files/figure-gfm/bee-eater-2.png" width="33%" /><img src="README_files/figure-gfm/bee-eater-3.png" width="33%" />
 <span style="color: grey; font-size: 8pt">Image credit: [Jim
 Bendon](https://www.flickr.com/people/77524419@N03) from [Wikimedia
 Commons](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_\(9847155264\).jpg).
@@ -237,24 +134,7 @@ license.</span>
 
 ### Olive-backed Oriole (*Oriolus sagittatus*)
 
-<div class="column-left">
-
-![](https://upload.wikimedia.org/wikipedia/commons/8/82/Oriolus_sagittatus_-Canberra%2C_Australia-8a.jpg)<!-- -->
-
-</div>
-
-<div class="column-center">
-
-![](README_files/figure-gfm/unnamed-chunk-23-1.png)<!-- -->
-
-</div>
-
-<div class="column-right">
-
-![](README_files/figure-gfm/unnamed-chunk-24-1.png)<!-- -->
-
-</div>
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Oriolus_sagittatus_-Canberra%2C_Australia-8a.jpg" width="33%" /><img src="README_files/figure-gfm/oriole-2.png" width="33%" /><img src="README_files/figure-gfm/oriole-3.png" width="33%" />
 <span style="color: grey; font-size: 8pt">Image credit: [Duncan
 McCaskill](https://get.google.com/albumarchive/pwa/duncan.mccaskill)
 from [Wikimedia
@@ -266,24 +146,7 @@ license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span>
 
 ### Princess Parrot (*Polytelis alexandrae*)
 
-<div class="column-left">
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Princess_Parrot_HD_pic.JPG/640px-Princess_Parrot_HD_pic.JPG)<!-- -->
-
-</div>
-
-<div class="column-center">
-
-![](README_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
-
-</div>
-
-<div class="column-right">
-
-![](README_files/figure-gfm/unnamed-chunk-27-1.png)<!-- -->
-
-</div>
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Princess_Parrot_HD_pic.JPG/640px-Princess_Parrot_HD_pic.JPG" width="33%" /><img src="README_files/figure-gfm/princess-2.png" width="33%" /><img src="README_files/figure-gfm/princess-3.png" width="33%" />
 <span style="color: grey; font-size: 8pt">Image credit: Timothychacko
 from [Wikimedia
 Commons](https://commons.wikimedia.org/wiki/File:Princess_Parrot_HD_pic.JPG).
