@@ -13,6 +13,15 @@ package:
 devtools::install_github("shandiya/feather")
 ```
 
+    ##          checking for file 'C:\Users\Shandiya\AppData\Local\Temp\RtmpM9wj6L\remotes3bbc1b867d5e\shandiya-feather-10eeb2a/DESCRIPTION' ...  v  checking for file 'C:\Users\Shandiya\AppData\Local\Temp\RtmpM9wj6L\remotes3bbc1b867d5e\shandiya-feather-10eeb2a/DESCRIPTION' (392ms)
+    ##       -  preparing 'feather':
+    ##    checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   v  checking DESCRIPTION meta-information
+    ##       -  checking for LF line-endings in source and make files and shell scripts
+    ##       -  checking for empty or unneeded directories
+    ##       -  building 'feather_0.0.0.9000.tar.gz'
+    ##      
+    ## 
+
 ## How to use `feather`
 
 Colour palettes are stored as a list called `feather_palettes`, and can
