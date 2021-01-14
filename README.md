@@ -13,6 +13,15 @@ package:
 devtools::install_github("shandiya/feather")
 ```
 
+    ##          checking for file 'C:\Users\Shandiya\AppData\Local\Temp\RtmpI5t5SJ\remotesdd42f330dc\shandiya-feather-9f812a8/DESCRIPTION' ...  v  checking for file 'C:\Users\Shandiya\AppData\Local\Temp\RtmpI5t5SJ\remotesdd42f330dc\shandiya-feather-9f812a8/DESCRIPTION' (416ms)
+    ##       -  preparing 'feather':
+    ##    checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   v  checking DESCRIPTION meta-information
+    ##       -  checking for LF line-endings in source and make files and shell scripts
+    ##       -  checking for empty or unneeded directories
+    ##       -  building 'feather_0.0.0.9000.tar.gz'
+    ##      
+    ## 
+
 ## How to use `feather`
 
 Colour palettes are stored as a list called `feather_palettes`, and can
@@ -73,7 +82,7 @@ The images below show each palette and the bird that inspired it.
 
 #### Eastern Rosella (*Platycercus eximius*)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Platycercus_eximius_diemenensis_male.jpg" width="33%" /><img src="README_files/figure-gfm/rosella-2.png" width="33%" /><img src="README_files/figure-gfm/rosella-3.png" width="33%" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Platycercus_eximius_diemenensis_male.jpg/320px-Platycercus_eximius_diemenensis_male.jpg" width="33%" /><img src="README_files/figure-gfm/rosella-2.png" width="33%" /><img src="README_files/figure-gfm/rosella-3.png" width="33%" />
 <span style="color: grey; font-size: 8pt">Image credit: [JJ
 Harrison](https://www.jjharrison.com.au/) from [Wikimedia
 Commons](https://commons.wikimedia.org/wiki/File:Platycercus_eximius_diemenensis_male.jpg).

@@ -69,7 +69,7 @@ The images below show each palette and the bird that inspired it.
 
 ```{r rosella, echo = FALSE, message=FALSE, warning=FALSE, out.width=c('33%', '33%', '33%'), fig.show='hold'}
 
-knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/3/33/Platycercus_eximius_diemenensis_male.jpg")
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Platycercus_eximius_diemenensis_male.jpg/320px-Platycercus_eximius_diemenensis_male.jpg")
 
 er <- get_pal("eastern_rosella")
 print_pal(er)
