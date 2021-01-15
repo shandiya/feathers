@@ -13,7 +13,11 @@ package:
 devtools::install_github("shandiya/feather")
 ```
 
+<<<<<<< HEAD
     ##          checking for file 'C:\Users\Shandiya\AppData\Local\Temp\RtmpI5t5SJ\remotesdd42f330dc\shandiya-feather-9f812a8/DESCRIPTION' ...  v  checking for file 'C:\Users\Shandiya\AppData\Local\Temp\RtmpI5t5SJ\remotesdd42f330dc\shandiya-feather-9f812a8/DESCRIPTION' (416ms)
+=======
+    ##          checking for file 'C:\Users\Shandiya\AppData\Local\Temp\RtmpM9wj6L\remotes3bbc1b867d5e\shandiya-feather-10eeb2a/DESCRIPTION' ...  v  checking for file 'C:\Users\Shandiya\AppData\Local\Temp\RtmpM9wj6L\remotes3bbc1b867d5e\shandiya-feather-10eeb2a/DESCRIPTION' (392ms)
+>>>>>>> 9f812a8d8d0cb5e5b5e7112eae103fe59c979a7a
     ##       -  preparing 'feather':
     ##    checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   v  checking DESCRIPTION meta-information
     ##       -  checking for LF line-endings in source and make files and shell scripts
