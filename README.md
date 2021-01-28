@@ -13,19 +13,6 @@ package:
 devtools::install_github("shandiya/feather")
 ```
 
-<<<<<<< HEAD
-    ##          checking for file 'C:\Users\Shandiya\AppData\Local\Temp\RtmpI5t5SJ\remotesdd42f330dc\shandiya-feather-9f812a8/DESCRIPTION' ...  v  checking for file 'C:\Users\Shandiya\AppData\Local\Temp\RtmpI5t5SJ\remotesdd42f330dc\shandiya-feather-9f812a8/DESCRIPTION' (416ms)
-=======
-    ##          checking for file 'C:\Users\Shandiya\AppData\Local\Temp\RtmpM9wj6L\remotes3bbc1b867d5e\shandiya-feather-10eeb2a/DESCRIPTION' ...  v  checking for file 'C:\Users\Shandiya\AppData\Local\Temp\RtmpM9wj6L\remotes3bbc1b867d5e\shandiya-feather-10eeb2a/DESCRIPTION' (392ms)
->>>>>>> 9f812a8d8d0cb5e5b5e7112eae103fe59c979a7a
-    ##       -  preparing 'feather':
-    ##    checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   v  checking DESCRIPTION meta-information
-    ##       -  checking for LF line-endings in source and make files and shell scripts
-    ##       -  checking for empty or unneeded directories
-    ##       -  building 'feather_0.0.0.9000.tar.gz'
-    ##      
-    ## 
-
 ## How to use `feather`
 
 Colour palettes are stored as a list called `feather_palettes`, and can
@@ -84,62 +71,55 @@ ggplot(penguins) +
 
 The images below show each palette and the bird that inspired it.
 
-#### Eastern Rosella (*Platycercus eximius*)
+### Eastern Rosella (*Platycercus eximius*)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Platycercus_eximius_diemenensis_male.jpg/320px-Platycercus_eximius_diemenensis_male.jpg" width="33%" /><img src="README_files/figure-gfm/rosella-2.png" width="33%" /><img src="README_files/figure-gfm/rosella-3.png" width="33%" />
 <span style="color: grey; font-size: 8pt">Image credit: [JJ
-Harrison](https://www.jjharrison.com.au/) from [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Platycercus_eximius_diemenensis_male.jpg).
-This file is licensed under the [Creative
+Harrison](https://commons.wikimedia.org/wiki/File:Platycercus_eximius_diemenensis_male.jpg),
+licensed under the [Creative
 Commons](https://en.wikipedia.org/wiki/Creative_Commons)
 [Attribution-Share Alike 3.0 Unported
 license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span>
 
-#### Plains-wanderer (*Pedionomus torquatus*)
+### Plains-wanderer (*Pedionomus torquatus*)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Plains-wanderer_%28Pedionomus_torquatus%29_7_%2830547426803%29.jpg" width="33%" /><img src="README_files/figure-gfm/pdubs-2.png" width="33%" /><img src="README_files/figure-gfm/pdubs-3.png" width="33%" />
 <span style="color: grey; font-size: 8pt">Image credit: [Dominic
-Sherony](https://www.flickr.com/people/9765210@N03) from [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Plains-wanderer_\(Pedionomus_torquatus\)_7_\(30547426803\).jpg).
-This file is licensed under the [Creative
+Sherony](https://commons.wikimedia.org/wiki/File:Plains-wanderer_\(Pedionomus_torquatus\)_7_\(30547426803\).jpg),
+licensed under the [Creative
 Commons](https://en.wikipedia.org/wiki/Creative_Commons)
 [Attribution 2.0
 Generic](https://creativecommons.org/licenses/by/2.0/deed.en)
 license.</span>
 
-#### Spotted Pardalote (*Pardalotus punctatus*)
+### Spotted Pardalote (*Pardalotus punctatus*)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2819205338781%29.jpg/1024px-Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2819205338781%29.jpg" width="33%" /><img src="README_files/figure-gfm/spotty-2.png" width="33%" /><img src="README_files/figure-gfm/spotty-3.png" width="33%" />
 <span style="color: grey; font-size: 8pt">Image credit:
-[Patrick\_K59](https://www.flickr.com/people/63175631@N02) from
-[Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_\(Pardalotus_punctatus\)_male_\(19205338781\).jpg).
-This file is licensed under the [Creative
+[Patrick\_K59](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_\(Pardalotus_punctatus\)_male_\(19205338781\).jpg),
+licensed under the [Creative
 Commons](https://en.wikipedia.org/wiki/Creative_Commons)
 [Attribution 2.0
 Generic](https://creativecommons.org/licenses/by/2.0/deed.en)
 license.</span>
 
-#### Rose-crowned Fruit-Dove (*Ptilinopus regina*)
+### Rose-crowned Fruit-Dove (*Ptilinopus regina*)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_%289098717408%29.jpg" width="33%" /><img src="README_files/figure-gfm/sweetpea-2.png" width="33%" /><img src="README_files/figure-gfm/sweetpea-3.png" width="33%" />
 <span style="color: grey; font-size: 8pt">Image credit:
-[Sheba\_Also](https://www.flickr.com/people/34534185@N00) from
-[Wikimedia
-Commons](https://commons.m.wikimedia.org/wiki/File:Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_\(9098717408\).jpg).
-This file is licensed under the [Creative
+[Sheba\_Also](https://commons.m.wikimedia.org/wiki/File:Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_\(9098717408\).jpg),
+licensed under the [Creative
 Commons](https://en.wikipedia.org/wiki/Creative_Commons)
 [Attribution 2.0
 Generic](https://creativecommons.org/licenses/by/2.0/deed.en)
 license.</span>
 
-#### Rainbow Bee-eater (*Merops ornatus*)
+### Rainbow Bee-eater (*Merops ornatus*)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Rainbow_bee_eater_%289847155264%29.jpg" width="33%" /><img src="README_files/figure-gfm/bee-eater-2.png" width="33%" /><img src="README_files/figure-gfm/bee-eater-3.png" width="33%" />
 <span style="color: grey; font-size: 8pt">Image credit: [Jim
-Bendon](https://www.flickr.com/people/77524419@N03) from [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_\(9847155264\).jpg).
-This file is licensed under the [Creative
+Bendon](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_\(9847155264\).jpg),
+licensed under the [Creative
 Commons](https://en.wikipedia.org/wiki/Creative_Commons)
 [Attribution 2.0
 Generic](https://creativecommons.org/licenses/by/2.0/deed.en)
@@ -149,10 +129,8 @@ license.</span>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Oriolus_sagittatus_-Canberra%2C_Australia-8a.jpg" width="33%" /><img src="README_files/figure-gfm/oriole-2.png" width="33%" /><img src="README_files/figure-gfm/oriole-3.png" width="33%" />
 <span style="color: grey; font-size: 8pt">Image credit: [Duncan
-McCaskill](https://get.google.com/albumarchive/pwa/duncan.mccaskill)
-from [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Oriolus_sagittatus_-Canberra,_Australia-8a.jpg).
-This file is licensed under the [Creative
+McCaskill](https://commons.wikimedia.org/wiki/File:Oriolus_sagittatus_-Canberra,_Australia-8a.jpg),
+licensed under the [Creative
 Commons](https://en.wikipedia.org/wiki/Creative_Commons)
 [Attribution-Share Alike 3.0 Unported
 license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span>
@@ -160,10 +138,9 @@ license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span>
 ### Princess Parrot (*Polytelis alexandrae*)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Princess_Parrot_HD_pic.JPG/640px-Princess_Parrot_HD_pic.JPG" width="33%" /><img src="README_files/figure-gfm/princess-2.png" width="33%" /><img src="README_files/figure-gfm/princess-3.png" width="33%" />
-<span style="color: grey; font-size: 8pt">Image credit: Timothychacko
-from [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Princess_Parrot_HD_pic.JPG).
-This file is licensed under the [Creative
+<span style="color: grey; font-size: 8pt">Image credit:
+[Timothychacko](https://commons.wikimedia.org/wiki/File:Princess_Parrot_HD_pic.JPG),
+licensed under the [Creative
 Commons](https://en.wikipedia.org/wiki/Creative_Commons)
 [Attribution-Share Alike 4.0 International
 license.](https://creativecommons.org/licenses/by-sa/4.0/deed.en).</span>

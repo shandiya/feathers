@@ -37,7 +37,7 @@ get_pal("eastern_rosella")
 
 `print_pal` is a function that displays the colour palette in the plots pane.
 
-```{r, fig.height=3, fig.width=6, fig.align='center'}
+```{r, fig.height=3, fig.width=5, fig.align='center'}
 eastern_rosella <- get_pal("eastern_rosella")
 print_pal(eastern_rosella)
 ```
@@ -65,7 +65,7 @@ ggplot(penguins) +
 
 The images below show each palette and the bird that inspired it. 
 
-#### Eastern Rosella (*Platycercus eximius*)
+### Eastern Rosella (*Platycercus eximius*)
 
 ```{r rosella, echo = FALSE, message=FALSE, warning=FALSE, out.width=c('33%', '33%', '33%'), fig.show='hold'}
 
@@ -86,10 +86,10 @@ penguins %>%
   scale_colour_manual(values = get_pal("eastern_rosella"))
 
 ```
-<span style="color: grey; font-size: 8pt">Image credit: [JJ Harrison](https://www.jjharrison.com.au/) from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Platycercus_eximius_diemenensis_male.jpg). This file is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span> 
+<span style="color: grey; font-size: 8pt">Image credit: [JJ Harrison](https://commons.wikimedia.org/wiki/File:Platycercus_eximius_diemenensis_male.jpg), licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span> 
 
 
-#### Plains-wanderer (*Pedionomus torquatus*)
+### Plains-wanderer (*Pedionomus torquatus*)
 
 ```{r pdubs, echo = FALSE, message=FALSE, warning=FALSE, out.width=c('33%', '33%', '33%'), fig.show='hold'}
 
@@ -109,10 +109,10 @@ penguins %>%
   theme(legend.position = "none") +
   scale_colour_manual(values = get_pal("plains_wanderer"))
 ```
-<span style="color: grey; font-size: 8pt">Image credit: [Dominic Sherony](https://www.flickr.com/people/9765210@N03) from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Plains-wanderer_(Pedionomus_torquatus)_7_(30547426803).jpg). This file is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution 2.0 Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license.</span> 
+<span style="color: grey; font-size: 8pt">Image credit: [Dominic Sherony](https://commons.wikimedia.org/wiki/File:Plains-wanderer_(Pedionomus_torquatus)_7_(30547426803).jpg), licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution 2.0 Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license.</span> 
 
 
-#### Spotted Pardalote (*Pardalotus punctatus*)
+### Spotted Pardalote (*Pardalotus punctatus*)
 
 ```{r spotty, echo = FALSE, message=FALSE, warning=FALSE, out.width=c('33%', '33%', '33%'), fig.show='hold'}
 
@@ -132,10 +132,10 @@ penguins %>%
   theme(legend.position = "none") +
   scale_colour_manual(values = get_pal("spotted_pardalote"))
 ``` 
-<span style="color: grey; font-size: 8pt">Image credit: [Patrick_K59](https://www.flickr.com/people/63175631@N02) from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_(Pardalotus_punctatus)_male_(19205338781).jpg). This file is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution 2.0 Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license.</span>
+<span style="color: grey; font-size: 8pt">Image credit: [Patrick_K59](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_(Pardalotus_punctatus)_male_(19205338781).jpg), licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution 2.0 Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license.</span>
 
 
-#### Rose-crowned Fruit-Dove (*Ptilinopus regina*)
+### Rose-crowned Fruit-Dove (*Ptilinopus regina*)
 
 ```{r sweetpea, echo = FALSE, message=FALSE, warning=FALSE, out.width=c('33%', '33%', '33%'), fig.show='hold'}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/7/72/Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_%289098717408%29.jpg")
@@ -154,10 +154,10 @@ penguins %>%
   theme(legend.position = "none") +
   scale_colour_manual(values = get_pal("rose_crowned_fruit_dove"))
 ``` 
-<span style="color: grey; font-size: 8pt">Image credit: [Sheba_Also](https://www.flickr.com/people/34534185@N00) from [Wikimedia Commons](https://commons.m.wikimedia.org/wiki/File:Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_(9098717408).jpg). This file is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution 2.0 Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license.</span>
+<span style="color: grey; font-size: 8pt">Image credit: [Sheba_Also](https://commons.m.wikimedia.org/wiki/File:Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_(9098717408).jpg), licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution 2.0 Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license.</span>
 
 
-#### Rainbow Bee-eater (*Merops ornatus*)
+### Rainbow Bee-eater (*Merops ornatus*)
 
 ```{r bee-eater, echo = FALSE, message=FALSE, warning=FALSE, out.width=c('33%', '33%', '33%'), fig.show='hold'}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/2/26/Rainbow_bee_eater_%289847155264%29.jpg")
@@ -176,7 +176,7 @@ penguins %>%
   theme(legend.position = "none") +
   scale_colour_manual(values = get_pal("bee_eater"))
 ``` 
-<span style="color: grey; font-size: 8pt">Image credit: [Jim Bendon](https://www.flickr.com/people/77524419@N03) from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_(9847155264).jpg). This file is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution 2.0 Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license.</span>
+<span style="color: grey; font-size: 8pt">Image credit: [Jim Bendon](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_(9847155264).jpg), licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution 2.0 Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license.</span>
 
 
 ### Olive-backed Oriole (*Oriolus sagittatus*)
@@ -198,7 +198,7 @@ penguins %>%
   theme(legend.position = "none") +
   scale_colour_manual(values = get_pal("oriole"))
 ``` 
-<span style="color: grey; font-size: 8pt">Image credit: [Duncan McCaskill](https://get.google.com/albumarchive/pwa/duncan.mccaskill) from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Oriolus_sagittatus_-Canberra,_Australia-8a.jpg). This file is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span>
+<span style="color: grey; font-size: 8pt">Image credit: [Duncan McCaskill](https://commons.wikimedia.org/wiki/File:Oriolus_sagittatus_-Canberra,_Australia-8a.jpg), licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span>
 
 
 ### Princess Parrot (*Polytelis alexandrae*)
@@ -220,7 +220,7 @@ penguins %>%
   theme(legend.position = "none") +
   scale_colour_manual(values = get_pal("princess_parrot"))
 ``` 
-<span style="color: grey; font-size: 8pt">Image credit: Timothychacko from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Princess_Parrot_HD_pic.JPG). This file is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution-Share Alike 4.0 International license.](https://creativecommons.org/licenses/by-sa/4.0/deed.en).</span>
+<span style="color: grey; font-size: 8pt">Image credit: [Timothychacko](https://commons.wikimedia.org/wiki/File:Princess_Parrot_HD_pic.JPG), licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution-Share Alike 4.0 International license.](https://creativecommons.org/licenses/by-sa/4.0/deed.en).</span>
 
 
 ## Contribute
