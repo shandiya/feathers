@@ -26,7 +26,7 @@ names(feather_palettes)
     ## [1] "spotted_pardalote"       "plains_wanderer"        
     ## [3] "bee_eater"               "rose_crowned_fruit_dove"
     ## [5] "eastern_rosella"         "oriole"                 
-    ## [7] "princess_parrot"
+    ## [7] "princess_parrot"         "gouldian_finch"
 
 `get_pal` is a function that returns the chosen palette as a vector of
 hex colour codes.
@@ -70,6 +70,16 @@ ggplot(penguins) +
 ## Colour palettes
 
 The images below show each palette and the bird that inspired it.
+
+### Gouldian Finch (*Chloebia gouldiae*)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Male_adult_Gouldian_Finch.jpg" width="33%" /><img src="README_files/figure-gfm/gouldian-2.png" width="33%" /><img src="README_files/figure-gfm/gouldian-3.png" width="33%" />
+<span style="color: grey; font-size: 8pt">Image credit: [Martin
+Pot](https://commons.wikimedia.org/wiki/File:Male_adult_Gouldian_Finch.jpg),
+licensed under the [Creative
+Commons](https://en.wikipedia.org/wiki/Creative_Commons)
+[Attribution-Share Alike 3.0 Unported
+license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span>
 
 ### Eastern Rosella (*Platycercus eximius*)
 

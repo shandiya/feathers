@@ -65,6 +65,30 @@ ggplot(penguins) +
 
 The images below show each palette and the bird that inspired it. 
 
+### Gouldian Finch (*Chloebia gouldiae*)
+
+```{r gouldian, echo = FALSE, message=FALSE, warning=FALSE, out.width=c('33%', '33%', '33%'), fig.show='hold'}
+
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/3/3e/Male_adult_Gouldian_Finch.jpg")
+
+gf <- get_pal("gouldian_finch")
+print_pal(gf)
+
+penguins %>%
+  ggplot() +
+  geom_point(aes(
+    x = flipper_length_mm,
+    y = body_mass_g,
+    colour = species:island)) +
+  labs(x = "", y = "") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  scale_colour_manual(values = get_pal("gouldian_finch"))
+
+```
+<span style="color: grey; font-size: 8pt">Image credit: [Martin Pot](https://commons.wikimedia.org/wiki/File:Male_adult_Gouldian_Finch.jpg), licensed under the [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) [Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span> 
+ 
+
 ### Eastern Rosella (*Platycercus eximius*)
 
 ```{r rosella, echo = FALSE, message=FALSE, warning=FALSE, out.width=c('33%', '33%', '33%'), fig.show='hold'}
