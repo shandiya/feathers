@@ -155,7 +155,7 @@ visualisation using the `colorRampPalette()` function.
 
 ``` r
 # choose end colours
-seq_col <- get_pal("rose_crowned_fruit_dove")[c(4,8)]
+seq_col <- get_pal("eastern_rosella")[c(2,7)]
 
 # create a gradient of 50 shades in between the selected colours 
 colorRampPalette(seq_col)(50)
