@@ -145,6 +145,36 @@ Commons](https://en.wikipedia.org/wiki/Creative_Commons)
 [Attribution-Share Alike 4.0 International
 license.](https://creativecommons.org/licenses/by-sa/4.0/deed.en).</span>
 
+## Continuous palettes
+
+The qualitative colour palettes in `feather` may be converted into
+sequential or diverging palettes for different types of data
+visualisation using the `colorRampPalette()` function.
+
+### Sequential palette
+
+``` r
+# choose end colours
+seq_col <- get_pal("rose_crowned_fruit_dove")[c(4,8)]
+
+# create a gradient of 50 shades in between the selected colours 
+colorRampPalette(seq_col)(50)
+```
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
+
+### Diverging palette
+
+``` r
+# choose end and middle colours
+div_col <- get_pal("oriole")[c(1,5,10)]
+
+# create a gradient of 50 shades in between the selected colours 
+colorRampPalette(div_col)(50)
+```
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-1.png" style="display: block; margin: auto;" />
+
 ## Contribute
 
 If you would like to contribute to this package or have suggestions for
