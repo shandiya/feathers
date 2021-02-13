@@ -1,8 +1,12 @@
 feather
 ================
 
-This package contains a selection of colour palettes inspired by the
-plumage of Australian birds.
+This package contains colour palettes inspired by the plumage of
+Australian birds. For species exhibiting sexual dimorphism (i.e. males
+and females look different), I have used female colours. Research on
+birds has historically been biased towards males, and the choice to use
+female colours in this package is my way of highlighting the
+often-overlooked beauty of female birds.
 
 ## Installation
 
@@ -71,89 +75,46 @@ ggplot(penguins) +
 
 The images below show each palette and the bird that inspired it.
 
-### Gouldian Finch (*Chloebia gouldiae*)
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Male_adult_Gouldian_Finch.jpg" width="33%" /><img src="README_files/figure-gfm/gouldian-2.png" width="33%" /><img src="README_files/figure-gfm/gouldian-3.png" width="33%" />
-<span style="color: grey; font-size: 8pt">Image credit: [Martin
-Pot](https://commons.wikimedia.org/wiki/File:Male_adult_Gouldian_Finch.jpg),
-licensed under the [Creative
-Commons](https://en.wikipedia.org/wiki/Creative_Commons)
-[Attribution-Share Alike 3.0 Unported
-license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span>
-
 ### Eastern Rosella (*Platycercus eximius*)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Platycercus_eximius_diemenensis_male.jpg/320px-Platycercus_eximius_diemenensis_male.jpg" width="33%" /><img src="README_files/figure-gfm/rosella-2.png" width="33%" /><img src="README_files/figure-gfm/rosella-3.png" width="33%" />
-<span style="color: grey; font-size: 8pt">Image credit: [JJ
-Harrison](https://commons.wikimedia.org/wiki/File:Platycercus_eximius_diemenensis_male.jpg),
-licensed under the [Creative
-Commons](https://en.wikipedia.org/wiki/Creative_Commons)
-[Attribution-Share Alike 3.0 Unported
-license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span>
+<img src="README_files/figure-gfm/rosella_pal-1.png" style="display: block; margin: auto;" />
+
+<img src="images/rosella_plot.png" width="65%" /><img src="images/rosella.png" width="35%" />
+Image:
+[Mfunnell](https://commons.wikimedia.org/wiki/File:Eastern_Rosella_\(Platycercus_eximius\)_in_tree.jpg)
 
 ### Plains-wanderer (*Pedionomus torquatus*)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Plains-wanderer_%28Pedionomus_torquatus%29_7_%2830547426803%29.jpg" width="33%" /><img src="README_files/figure-gfm/pdubs-2.png" width="33%" /><img src="README_files/figure-gfm/pdubs-3.png" width="33%" />
-<span style="color: grey; font-size: 8pt">Image credit: [Dominic
-Sherony](https://commons.wikimedia.org/wiki/File:Plains-wanderer_\(Pedionomus_torquatus\)_7_\(30547426803\).jpg),
-licensed under the [Creative
-Commons](https://en.wikipedia.org/wiki/Creative_Commons)
-[Attribution 2.0
-Generic](https://creativecommons.org/licenses/by/2.0/deed.en)
-license.</span>
+<img src="README_files/figure-gfm/wanderer_pal-1.png" style="display: block; margin: auto;" />
+
+<img src="images/wanderer_plot.png" width="65%" /><img src="images/wanderer.png" width="35%" />
+Image: [Dominic
+Sherony](https://commons.wikimedia.org/wiki/File:Plains-wanderer_\(Pedionomus_torquatus\)_7_\(30547426803\).jpg)
 
 ### Spotted Pardalote (*Pardalotus punctatus*)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2819205338781%29.jpg/1024px-Spotted_Pardalote_%28Pardalotus_punctatus%29_male_%2819205338781%29.jpg" width="33%" /><img src="README_files/figure-gfm/spotty-2.png" width="33%" /><img src="README_files/figure-gfm/spotty-3.png" width="33%" />
-<span style="color: grey; font-size: 8pt">Image credit:
-[Patrick\_K59](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_\(Pardalotus_punctatus\)_male_\(19205338781\).jpg),
-licensed under the [Creative
-Commons](https://en.wikipedia.org/wiki/Creative_Commons)
-[Attribution 2.0
-Generic](https://creativecommons.org/licenses/by/2.0/deed.en)
-license.</span>
+<img src="README_files/figure-gfm/spotty_pal-1.png" style="display: block; margin: auto;" />
+
+<img src="images/spotty_plot.png" width="65%" /><img src="images/spotty.png" width="35%" />
+Image:
+[Patrick\_K59](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_\(Pardalotus_punctatus\)_female_\(23113043855\).jpg)
 
 ### Rose-crowned Fruit-Dove (*Ptilinopus regina*)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_%289098717408%29.jpg" width="33%" /><img src="README_files/figure-gfm/sweetpea-2.png" width="33%" /><img src="README_files/figure-gfm/sweetpea-3.png" width="33%" />
-<span style="color: grey; font-size: 8pt">Image credit:
-[Sheba\_Also](https://commons.m.wikimedia.org/wiki/File:Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_\(9098717408\).jpg),
-licensed under the [Creative
-Commons](https://en.wikipedia.org/wiki/Creative_Commons)
-[Attribution 2.0
-Generic](https://creativecommons.org/licenses/by/2.0/deed.en)
-license.</span>
+<img src="README_files/figure-gfm/rcf_dove_pal-1.png" style="display: block; margin: auto;" />
+
+<img src="images/rcf_dove_plot.png" width="65%" /><img src="images/rcf_dove.png" width="35%" />
+Image:
+[Moonlight0551](https://commons.wikimedia.org/wiki/File:Rose-crowned_Fruit-Dove_-_Ptilinopus_regina_\(7088988107\).jpg)
 
 ### Rainbow Bee-eater (*Merops ornatus*)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Rainbow_bee_eater_%289847155264%29.jpg" width="33%" /><img src="README_files/figure-gfm/bee-eater-2.png" width="33%" /><img src="README_files/figure-gfm/bee-eater-3.png" width="33%" />
-<span style="color: grey; font-size: 8pt">Image credit: [Jim
-Bendon](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_\(9847155264\).jpg),
-licensed under the [Creative
-Commons](https://en.wikipedia.org/wiki/Creative_Commons)
-[Attribution 2.0
-Generic](https://creativecommons.org/licenses/by/2.0/deed.en)
-license.</span>
+<img src="README_files/figure-gfm/bee_eater_pal-1.png" style="display: block; margin: auto;" />
 
-### Olive-backed Oriole (*Oriolus sagittatus*)
+<img src="images/bee_eater_plot.png" width="65%" /><img src="images/bee_eater.png" width="35%" />
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Oriolus_sagittatus_-Canberra%2C_Australia-8a.jpg" width="33%" /><img src="README_files/figure-gfm/oriole-2.png" width="33%" /><img src="README_files/figure-gfm/oriole-3.png" width="33%" />
-<span style="color: grey; font-size: 8pt">Image credit: [Duncan
-McCaskill](https://commons.wikimedia.org/wiki/File:Oriolus_sagittatus_-Canberra,_Australia-8a.jpg),
-licensed under the [Creative
-Commons](https://en.wikipedia.org/wiki/Creative_Commons)
-[Attribution-Share Alike 3.0 Unported
-license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).</span>
-
-### Princess Parrot (*Polytelis alexandrae*)
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Princess_Parrot_HD_pic.JPG/640px-Princess_Parrot_HD_pic.JPG" width="33%" /><img src="README_files/figure-gfm/princess-2.png" width="33%" /><img src="README_files/figure-gfm/princess-3.png" width="33%" />
-<span style="color: grey; font-size: 8pt">Image credit:
-[Timothychacko](https://commons.wikimedia.org/wiki/File:Princess_Parrot_HD_pic.JPG),
-licensed under the [Creative
-Commons](https://en.wikipedia.org/wiki/Creative_Commons)
-[Attribution-Share Alike 4.0 International
-license.](https://creativecommons.org/licenses/by-sa/4.0/deed.en).</span>
+Image: [Jim
+Bendon](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_m%26f.jpg)
 
 ## Continuous palettes
 
