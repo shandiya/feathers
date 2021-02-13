@@ -136,6 +136,56 @@ knitr::include_graphics("images/bee_eater.png")
 Image: [Jim Bendon](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_m%26f.jpg)
 
 
+### Superb Fairy-wren (*Malurus cyaneus*)
+
+```{r superb_fw_pal, echo = FALSE, message=FALSE, warning=FALSE, fig.height=1, fig.width=5, fig.align='center'}
+sfw <- get_pal("superb_fairy_wren")
+print_pal(sfw)
+```
+
+```{r superb_fw_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
+knitr::include_graphics("images/superb_fw_plot.png")
+knitr::include_graphics("images/superb_fw.png")
+```  
+
+Image: [patrickkavanagh](https://www.flickr.com/photos/patrick_k59/50029104096)
+
+
+### Blue-faced Parrot-finch (*Erythrura trichroa*)
+```{r bfpf_pal, echo = FALSE, message=FALSE, warning=FALSE, fig.height=1, fig.width=6, fig.align='center'}
+bfpf <- get_pal("blue_faced_parrot_finch")
+print_pal(bfpf)
+```
+
+```{r bfpf_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
+knitr::include_graphics("images/bf_pf_plot.png")
+#knitr::include_graphics("images/superb_fw.png")
+```  
+
+
+### Princess Parrot (*Polytelis alexandrae*)
+```{r princess_pal, echo = FALSE, message=FALSE, warning=FALSE, fig.height=1, fig.width=8, fig.align='center'}
+pp <- get_pal("princess_parrot")
+print_pal(pp)
+```
+
+```{r princess_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
+knitr::include_graphics("images/princess_parrot_plot.png")
+#knitr::include_graphics("images/superb_fw.png")
+```  
+
+### Olive-backed Oriole (*Oriolus sagittatus*)
+
+```{r oriole_pal, echo = FALSE, message=FALSE, warning=FALSE, fig.height=1, fig.width=10, fig.align='center'}
+oriole <- get_pal("oriole")
+print_pal(oriole)
+```
+
+```{r oriole_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
+knitr::include_graphics("images/oriole_plot.png")
+#knitr::include_graphics("images/superb_fw.png")
+```  
+
 ## Continuous palettes
 
 The qualitative colour palettes in `feather` may be converted into sequential or diverging palettes for different types of data visualisation using the `colorRampPalette()` function.  

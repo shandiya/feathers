@@ -30,7 +30,8 @@ names(feather_palettes)
     ## [1] "spotted_pardalote"       "plains_wanderer"        
     ## [3] "bee_eater"               "rose_crowned_fruit_dove"
     ## [5] "eastern_rosella"         "oriole"                 
-    ## [7] "princess_parrot"         "gouldian_finch"
+    ## [7] "princess_parrot"         "blue_faced_parrot_finch"
+    ## [9] "superb_fairy_wren"
 
 `get_pal` is a function that returns the chosen palette as a vector of
 hex colour codes.
@@ -115,6 +116,33 @@ Image:
 
 Image: [Jim
 Bendon](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_m%26f.jpg)
+
+### Superb Fairy-wren (*Malurus cyaneus*)
+
+<img src="README_files/figure-gfm/superb_fw_pal-1.png" style="display: block; margin: auto;" />
+
+<img src="images/superb_fw_plot.png" width="65%" /><img src="images/superb_fw.png" width="35%" />
+
+Image:
+[patrickkavanagh](https://www.flickr.com/photos/patrick_k59/50029104096)
+
+### Blue-faced Parrot-finch (*Erythrura trichroa*)
+
+<img src="README_files/figure-gfm/bfpf_pal-1.png" style="display: block; margin: auto;" />
+
+<img src="images/bf_pf_plot.png" width="65%" />
+
+### Princess Parrot (*Polytelis alexandrae*)
+
+<img src="README_files/figure-gfm/princess_pal-1.png" style="display: block; margin: auto;" />
+
+<img src="images/princess_parrot_plot.png" width="65%" />
+
+### Olive-backed Oriole (*Oriolus sagittatus*)
+
+<img src="README_files/figure-gfm/oriole_pal-1.png" style="display: block; margin: auto;" />
+
+<img src="images/oriole_plot.png" width="65%" />
 
 ## Continuous palettes
 
