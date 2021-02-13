@@ -16,6 +16,6 @@ An image showing colours in palette
 Plot chosen colour palette from feather package
 }
 \examples{
-pardalote <- get_pal("pardalote")
+pardalote <- get_pal("spotted_pardalote")
 print_pal(pardalote)
 }

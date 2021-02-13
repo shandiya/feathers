@@ -3,5 +3,4 @@
 export(feather_palettes)
 export(get_pal)
 export(print_pal)
-importFrom(graphics,image)
-importFrom(graphics,par)
+import(ggplot2)

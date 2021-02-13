@@ -40,17 +40,21 @@ get_pal <- function(palette_name) {
 #' @param x A vector of colours
 #' @return An image showing colours in palette
 #' @export
-#' @importFrom graphics par image
+#' @import ggplot2
 #' @examples
-#' pardalote <- get_pal("pardalote")
+#' pardalote <- get_pal("spotted_pardalote")
 #' print_pal(pardalote)
 
 print_pal <- function(x) {
 
   n <- length(x)
-  old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
-  on.exit(par(old))
-
-  image(1:n, 1, as.matrix(1:n), col = x, ylab = "", xaxt = "n", yaxt = "n", bty = "n")
+  df <- data.frame(x = c(1:n), y = rep(1, n))
+  ggplot(df) +
+    geom_tile(aes(x = x, y = y),
+              fill = x,
+              colour = "white",
+              size = 3) +
+    theme_void() +
+    theme(legend.position = "none")
 
 }
