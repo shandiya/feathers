@@ -200,7 +200,7 @@ seq_col <- get_pal("eastern_rosella")[c(2,7)]
 colorRampPalette(seq_col)(50)
 ```
 
-```{r, echo = FALSE, fig.height=3, fig.width=5, fig.align='center'}
+```{r, echo = FALSE, fig.height=2, fig.width=10, fig.align='center'}
 print_pal(colorRampPalette(seq_col)(50))
 ```
 
@@ -215,7 +215,7 @@ div_col <- get_pal("oriole")[c(1,5,10)]
 colorRampPalette(div_col)(50)
 ```
 
-```{r, echo = FALSE, fig.height=3, fig.width=5, fig.align='center'}
+```{r, echo = FALSE, fig.height=2, fig.width=10, fig.align='center'}
 print_pal(colorRampPalette(div_col)(50))
 ```
 
