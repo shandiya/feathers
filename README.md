@@ -142,7 +142,9 @@ Image:
 
 <img src="README_files/figure-gfm/oriole_pal-1.png" style="display: block; margin: auto;" />
 
-<img src="images/oriole_plot.png" width="65%" />
+<img src="images/oriole_plot.png" width="65%" /><img src="images/oriole.png" width="35%" />
+Image:
+[Patrick\_K59](https://www.flickr.com/photos/63175631@N02/16640844194)
 
 ## Continuous palettes
 
