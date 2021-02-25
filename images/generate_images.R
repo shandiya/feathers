@@ -5,7 +5,7 @@ library(palmerpenguins)
 library(here)
 
 # generate plots----------------
-# put all this into purrr map for more elegant scripting
+# put all this into purrr map for more elegant scripting?
 rosella_plot <- ggplot(penguins) +
   geom_point(aes(x = flipper_length_mm, y = body_mass_g, colour = species:island)) +
   labs(x = "", y = "") +
@@ -102,3 +102,13 @@ bf_pf_plot <- ggplot(penguins) +
   scale_colour_manual(values = get_pal("blue_faced_parrot_finch")) +
   ggsave(here("images", "bf_pf_plot.png"), height = 3, width = 5, units = "in")
 
+casowary_plot <- ggplot(penguins) +
+  geom_point(aes(
+    x = flipper_length_mm,
+    y = body_mass_g,
+    colour = species:island)) +
+  labs(x = "", y = "") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  scale_colour_manual(values = get_pal("cassowary")[3:7]) +
+  ggsave(here("images", "cassowary_plot.png"), height = 3, width = 5, units = "in")

@@ -187,6 +187,22 @@ knitr::include_graphics("images/oriole.png")
 ```  
 Image: [Patrick_K59](https://www.flickr.com/photos/63175631@N02/16640844194)
 
+
+### Southern Cassowary (*Casuarius casuarius*)
+
+```{r cassowary_pal, echo = FALSE, message=FALSE, warning=FALSE, fig.height=1, fig.width=8, fig.align='center'}
+cass <- get_pal("cassowary")
+print_pal(cass)
+```
+
+```{r cassowary_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
+knitr::include_graphics("images/cassowary_plot.png")
+knitr::include_graphics("images/cassowary.png")
+```  
+Image: [Nick Hobgood](https://commons.wikimedia.org/wiki/File:Casuarius_casuarius_Southern_Cassowary_Papua_New_Guinea_by_Nick_Hobgood.jpg)
+
+
+
 ## Continuous palettes
 
 The qualitative colour palettes in `feather` may be converted into sequential or diverging palettes for different types of data visualisation using the `colorRampPalette()` function.  

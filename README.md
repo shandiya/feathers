@@ -27,11 +27,11 @@ library(feather)
 names(feather_palettes)
 ```
 
-    ## [1] "spotted_pardalote"       "plains_wanderer"        
-    ## [3] "bee_eater"               "rose_crowned_fruit_dove"
-    ## [5] "eastern_rosella"         "oriole"                 
-    ## [7] "princess_parrot"         "blue_faced_parrot_finch"
-    ## [9] "superb_fairy_wren"
+    ##  [1] "spotted_pardalote"       "plains_wanderer"        
+    ##  [3] "bee_eater"               "rose_crowned_fruit_dove"
+    ##  [5] "eastern_rosella"         "oriole"                 
+    ##  [7] "princess_parrot"         "blue_faced_parrot_finch"
+    ##  [9] "superb_fairy_wren"       "cassowary"
 
 `get_pal` is a function that returns the chosen palette as a vector of
 hex colour codes.
@@ -145,6 +145,14 @@ Image:
 <img src="images/oriole_plot.png" width="65%" /><img src="images/oriole.png" width="35%" />
 Image:
 [Patrick\_K59](https://www.flickr.com/photos/63175631@N02/16640844194)
+
+### Southern Cassowary (*Casuarius casuarius*)
+
+<img src="README_files/figure-gfm/cassowary_pal-1.png" style="display: block; margin: auto;" />
+
+<img src="images/cassowary_plot.png" width="65%" /><img src="images/cassowary.png" width="35%" />
+Image: [Nick
+Hobgood](https://commons.wikimedia.org/wiki/File:Casuarius_casuarius_Southern_Cassowary_Papua_New_Guinea_by_Nick_Hobgood.jpg)
 
 ## Continuous palettes
 
