@@ -14,7 +14,7 @@ This package is hosted on GitHub and can be installed using the devtools
 package:
 
 ``` r
-devtools::install_github("shandiya/feather")
+devtools::install_github(repo = "shandiya/feather", ref = "main")
 ```
 
 ## How to use `feather`
@@ -82,7 +82,7 @@ The images below show each palette and the bird that inspired it.
 
 <img src="images/rosella_plot.png" width="65%" /><img src="images/rosella.png" width="35%" />
 Image:
-[Mfunnell](https://commons.wikimedia.org/wiki/File:Eastern_Rosella_\(Platycercus_eximius\)_in_tree.jpg)
+[Mfunnell](https://commons.wikimedia.org/wiki/File:Eastern_Rosella_(Platycercus_eximius)_in_tree.jpg)
 
 ### Plains-wanderer (*Pedionomus torquatus*)
 
@@ -90,7 +90,7 @@ Image:
 
 <img src="images/wanderer_plot.png" width="65%" /><img src="images/wanderer.png" width="35%" />
 Image: [Dominic
-Sherony](https://commons.wikimedia.org/wiki/File:Plains-wanderer_\(Pedionomus_torquatus\)_7_\(30547426803\).jpg)
+Sherony](https://commons.wikimedia.org/wiki/File:Plains-wanderer_(Pedionomus_torquatus)_7_(30547426803).jpg)
 
 ### Spotted Pardalote (*Pardalotus punctatus*)
 
@@ -98,7 +98,7 @@ Sherony](https://commons.wikimedia.org/wiki/File:Plains-wanderer_\(Pedionomus_to
 
 <img src="images/spotty_plot.png" width="65%" /><img src="images/spotty.png" width="35%" />
 Image:
-[Patrick\_K59](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_\(Pardalotus_punctatus\)_female_\(23113043855\).jpg)
+[Patrick\_K59](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_(Pardalotus_punctatus)_female_(23113043855).jpg)
 
 ### Rose-crowned Fruit-Dove (*Ptilinopus regina*)
 
@@ -106,7 +106,7 @@ Image:
 
 <img src="images/rcf_dove_plot.png" width="65%" /><img src="images/rcf_dove.png" width="35%" />
 Image:
-[Moonlight0551](https://commons.wikimedia.org/wiki/File:Rose-crowned_Fruit-Dove_-_Ptilinopus_regina_\(7088988107\).jpg)
+[Moonlight0551](https://commons.wikimedia.org/wiki/File:Rose-crowned_Fruit-Dove_-_Ptilinopus_regina_(7088988107).jpg)
 
 ### Rainbow Bee-eater (*Merops ornatus*)
 

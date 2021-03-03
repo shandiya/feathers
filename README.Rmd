@@ -16,7 +16,7 @@ This package contains colour palettes inspired by the plumage of Australian bird
 This package is hosted on GitHub and can be installed using the devtools package:
 
 ```{r, message=FALSE, warning=FALSE}
-devtools::install_github("shandiya/feather")
+devtools::install_github(repo = "shandiya/feather", ref = "main")
 ```
 
 
