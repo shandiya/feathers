@@ -31,7 +31,8 @@ names(feather_palettes)
     ##  [3] "bee_eater"               "rose_crowned_fruit_dove"
     ##  [5] "eastern_rosella"         "oriole"                 
     ##  [7] "princess_parrot"         "blue_faced_parrot_finch"
-    ##  [9] "superb_fairy_wren"       "cassowary"
+    ##  [9] "superb_fairy_wren"       "cassowary"              
+    ## [11] "yellow_robin"
 
 `get_pal` is a function that returns the chosen palette as a vector of
 hex colour codes.
@@ -154,6 +155,14 @@ Image:
 Image: [Nick
 Hobgood](https://commons.wikimedia.org/wiki/File:Casuarius_casuarius_Southern_Cassowary_Papua_New_Guinea_by_Nick_Hobgood.jpg)
 
+### Eastern Yellow Robin (*Eopsaltria australis*)
+
+<img src="README_files/figure-gfm/yellow_robin_pal-1.png" style="display: block; margin: auto;" />
+
+<img src="images/yellow_robin_plot.png" width="65%" /><img src="images/yellow_robin.png" width="35%" />
+Image:
+[birdsaspoetry](https://www.flickr.com/photos/birdsaspoetry/8452825150)
+
 ## Continuous palettes
 
 The qualitative colour palettes in `feather` may be converted into
@@ -164,7 +173,7 @@ visualisation using the `colorRampPalette()` function.
 
 ``` r
 # choose end colours
-seq_col <- get_pal("eastern_rosella")[c(2,7)]
+seq_col <- get_pal("eastern_rosella")[c(2,7)]  
 
 # create a gradient of 50 shades in between the selected colours 
 colorRampPalette(seq_col)(50)
