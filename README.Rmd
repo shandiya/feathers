@@ -202,6 +202,19 @@ knitr::include_graphics("images/cassowary.png")
 Image: [Nick Hobgood](https://commons.wikimedia.org/wiki/File:Casuarius_casuarius_Southern_Cassowary_Papua_New_Guinea_by_Nick_Hobgood.jpg)
 
 
+### Eastern Yellow Robin (*Eopsaltria australis*)
+
+```{r yellow_robin_pal, echo = FALSE, message=FALSE, warning=FALSE, fig.height=1, fig.width=8, fig.align='center'}
+robin <- get_pal("yellow_robin")
+print_pal(robin)
+```
+
+```{r yellow_robin_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
+knitr::include_graphics("images/yellow_robin_plot.png")
+knitr::include_graphics("images/yellow_robin.png")
+```  
+Image: [birdsaspoetry](https://www.flickr.com/photos/birdsaspoetry/8452825150)
+
 
 ## Continuous palettes
 
