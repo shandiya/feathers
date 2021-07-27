@@ -1,7 +1,7 @@
 #' List of colour palettes
 #' @export
 
-feather_palettes <- list(
+feathers_palettes <- list(
   spotted_pardalote = c("#feca00", "#d36328", "#cb0300", "#b4b9b3", "#424847", "#000100"),
   plains_wanderer = c("#edd8c5", "#d09a5e", "#e7aa01", "#ac570f", "#73481b", "#442c0e", "#0d0403"),
   bee_eater = c("#00346E", "#007CBF", "#06ABDF", "#EDD03E", "#F5A200", "#6D8600", "#424D0C"),
@@ -17,7 +17,7 @@ feather_palettes <- list(
 
 
 
-#' Select feather palette
+#' Select feathers palette
 #' @description This function returns colour palettes based on Australian birds
 #' @param palette_name Name of desired palette
 #' @return A vector of hex colour codes
@@ -28,9 +28,9 @@ feather_palettes <- list(
 
 get_pal <- function(palette_name) {
 
-  pal <- feather_palettes[[palette_name]]
+  pal <- feathers_palettes[[palette_name]]
   if (is.null(pal))
-    stop("Whoops! That feather palette does not exist :(")
+    stop("Whoops! That colour palette does not exist in feathers :(")
   pal
 
 }
@@ -38,7 +38,7 @@ get_pal <- function(palette_name) {
 
 
 #' Plot colour palette
-#' @description Plot chosen colour palette from feather package
+#' @description Plot chosen colour palette from feathers package
 #' @param x A vector of colours
 #' @return An image showing colours in palette
 #' @export
