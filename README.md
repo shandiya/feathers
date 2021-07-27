@@ -1,4 +1,4 @@
-feather
+feathers
 ================
 
 This package contains colour palettes inspired by the plumage of
@@ -14,17 +14,17 @@ This package is hosted on GitHub and can be installed using the devtools
 package:
 
 ``` r
-devtools::install_github(repo = "shandiya/feather", ref = "main")
+devtools::install_github(repo = "shandiya/feathers", ref = "main")
 ```
 
-## How to use `feather`
+## How to use `feathers`
 
-Colour palettes are stored as a list called `feather_palettes`, and can
+Colour palettes are stored as a list called `feathers_palettes`, and can
 be accessed thus:
 
 ``` r
-library(feather)
-names(feather_palettes)
+library(feathers)
+names(feathers_palettes)
 ```
 
     ##  [1] "spotted_pardalote"       "plains_wanderer"        
@@ -165,7 +165,7 @@ Image:
 
 ## Continuous palettes
 
-The qualitative colour palettes in `feather` may be converted into
+The qualitative colour palettes in `feathers` may be converted into
 sequential or diverging palettes for different types of data
 visualisation using the `colorRampPalette()` function.
 
