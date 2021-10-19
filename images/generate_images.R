@@ -124,3 +124,14 @@ yellow_robin_plot <- ggplot(penguins) +
   theme(legend.position = "none") +
   scale_colour_manual(values = get_pal("yellow_robin")) +
   ggsave(here("images", "yellow_robin_plot.png"), height = 3, width = 5, units = "in")
+
+galah_plot <- ggplot(penguins) +
+  geom_point(aes(
+    x = flipper_length_mm,
+    y = body_mass_g,
+    colour = species:island)) +
+  labs(x = "", y = "") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  scale_colour_manual(values = get_pal("galah"))
+ggsave(here("images", "galah_plot.png"), height = 3, width = 5, units = "in")

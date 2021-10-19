@@ -32,7 +32,7 @@ names(feathers_palettes)
     ##  [5] "eastern_rosella"         "oriole"                 
     ##  [7] "princess_parrot"         "blue_faced_parrot_finch"
     ##  [9] "superb_fairy_wren"       "cassowary"              
-    ## [11] "yellow_robin"
+    ## [11] "yellow_robin"            "galah"
 
 `get_pal` is a function that returns the chosen palette as a vector of
 hex colour codes.
@@ -162,6 +162,13 @@ Hobgood](https://commons.wikimedia.org/wiki/File:Casuarius_casuarius_Southern_Ca
 <img src="images/yellow_robin_plot.png" width="65%" /><img src="images/yellow_robin.png" width="35%" />
 Image:
 [birdsaspoetry](https://www.flickr.com/photos/birdsaspoetry/8452825150)
+
+### Galah (*Eolophus roseicapilla*)
+
+<img src="README_files/figure-gfm/galah_pal-1.png" style="display: block; margin: auto;" />
+
+<img src="images/galah_plot.png" width="65%" /><img src="images/galah.png" width="35%" />
+Image: [Fred](https://www.flickr.com/photos/jean_hort/36056886411)
 
 ## Continuous palettes
 

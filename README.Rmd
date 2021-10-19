@@ -15,7 +15,7 @@ This package contains colour palettes inspired by the plumage of Australian bird
 
 This package is hosted on GitHub and can be installed using the devtools package:
 
-```{r, message=FALSE, warning=FALSE}
+```{r, message=FALSE, warning=FALSE, echo = TRUE, results='hide'}
 devtools::install_github(repo = "shandiya/feathers", ref = "main")
 ```
 
@@ -214,6 +214,20 @@ knitr::include_graphics("images/yellow_robin_plot.png")
 knitr::include_graphics("images/yellow_robin.png")
 ```  
 Image: [birdsaspoetry](https://www.flickr.com/photos/birdsaspoetry/8452825150)
+
+
+### Galah (*Eolophus roseicapilla*)
+
+```{r galah_pal, echo = FALSE, message=FALSE, warning=FALSE, fig.height=1, fig.width=7, fig.align='center'}
+gal <- get_pal("galah")
+print_pal(gal)
+```
+
+```{r galah_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
+knitr::include_graphics("images/galah_plot.png")
+knitr::include_graphics("images/galah.png")
+```  
+Image: [Fred](https://www.flickr.com/photos/jean_hort/36056886411)
 
 
 ## Continuous palettes
