@@ -8,6 +8,7 @@ library(feathers)
 library(dplyr)
 ```
 
+
 This package contains colour palettes inspired by the plumage of Australian birds. For species exhibiting sexual dimorphism (i.e. males and females look different), I have used female colours. Research on birds has historically been biased towards males, and the choice to use female colours in this package is my way of highlighting the often-overlooked beauty of female birds.  
 
 
