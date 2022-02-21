@@ -3,9 +3,7 @@ feathers
 
 <!-- badges: start -->
 
-![](https://img.shields.io/badge/colours-feathers-yellow.svg) [![Github
-All
-Releases](https://img.shields.io/github/downloads/shandiya/feathers/total.svg)]()
+![](https://img.shields.io/badge/colours-feathers-D5114E.svg)
 <!-- badges: end -->
 
 This package contains colour palettes inspired by the plumage of

@@ -4,8 +4,7 @@ output: github_document
 ---
 
 <!-- badges: start -->
-![](https://img.shields.io/badge/colours-feathers-yellow.svg)
-[![Github All Releases](https://img.shields.io/github/downloads/shandiya/feathers/total.svg)]()
+![](https://img.shields.io/badge/colours-feathers-D5114E.svg)
 <!-- badges: end -->
 
 
