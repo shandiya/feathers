@@ -3,6 +3,12 @@ title: feathers
 output: github_document
 ---
 
+<!-- badges: start -->
+![](https://img.shields.io/badge/colours-feathers-yellow.svg)
+[![Github All Releases](https://img.shields.io/github/downloads/shandiya/feathers/total.svg)]()
+<!-- badges: end -->
+
+
 ```{r, include=FALSE} 
 library(feathers)
 library(dplyr)

@@ -1,6 +1,13 @@
 feathers
 ================
 
+<!-- badges: start -->
+
+![](https://img.shields.io/badge/colours-feathers-yellow.svg) [![Github
+All
+Releases](https://img.shields.io/github/downloads/shandiya/feathers/total.svg)]()
+<!-- badges: end -->
+
 This package contains colour palettes inspired by the plumage of
 Australian birds. For species exhibiting sexual dimorphism (i.e. males
 and females look different), I have used female colours. Research on
