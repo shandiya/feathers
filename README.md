@@ -85,55 +85,55 @@ The images below show each palette and the bird that inspired it.
 
 <img src="README_files/figure-gfm/rosella_pal-1.png" style="display: block; margin: auto;" />
 
-<img src="images/rosella_plot.png" width="65%" /><img src="images/rosella.png" width="35%" />
+<img src="images/eastern_rosella_plot.png" width="65%" /><img src="images/eastern_rosella_img.png" width="35%" />
 
-Image:
-[Mfunnell](https://commons.wikimedia.org/wiki/File:Eastern_Rosella_(Platycercus_eximius)_in_tree.jpg)
+<font size="2">Image: [Duncan
+McCaskill](https://commons.wikimedia.org/wiki/File:Platycercus_eximius_-Canberra,_Australia-8.jpg)</font>
 
 ### Plains-wanderer (*Pedionomus torquatus*)
 
 <img src="README_files/figure-gfm/wanderer_pal-1.png" style="display: block; margin: auto;" />
 
-<img src="images/wanderer_plot.png" width="65%" /><img src="images/wanderer.png" width="35%" />
+<img src="images/plains_wanderer_plot.png" width="65%" /><img src="images/plains_wanderer_img.png" width="35%" />
 
-Image: [Dominic
-Sherony](https://commons.wikimedia.org/wiki/File:Plains-wanderer_(Pedionomus_torquatus)_7_(30547426803).jpg)
+<font size="2">Image: [JJ
+Harrison](https://en.wikipedia.org/wiki/Plains-wanderer#/media/File:Plains-wanderer_female_8173.jpg)</font>
 
 ### Spotted Pardalote (*Pardalotus punctatus*)
 
 <img src="README_files/figure-gfm/spotty_pal-1.png" style="display: block; margin: auto;" />
 
-<img src="images/spotty_plot.png" width="65%" /><img src="images/spotty.png" width="35%" />
+<img src="images/spotted_pardalote_plot.png" width="65%" /><img src="images/spotted_pardalote_img.png" width="35%" />
 
-Image:
-[Patrick_K59](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_(Pardalotus_punctatus)_female_(23113043855).jpg)
+<font size="2">Image:
+[Patrick_K59](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_(Pardalotus_punctatus)_female_(23113043855).jpg)</font>
 
 ### Rose-crowned Fruit-Dove (*Ptilinopus regina*)
 
 <img src="README_files/figure-gfm/rcf_dove_pal-1.png" style="display: block; margin: auto;" />
 
-<img src="images/rcf_dove_plot.png" width="65%" /><img src="images/rcf_dove.png" width="35%" />
+<img src="images/rose_crowned_fruit_dove_plot.png" width="65%" /><img src="images/rose_crowned_fruit_dove_img.png" width="35%" />
 
-Image:
-[Moonlight0551](https://commons.wikimedia.org/wiki/File:Rose-crowned_Fruit-Dove_-_Ptilinopus_regina_(7088988107).jpg)
+<font size="2">Image:
+[Sheba_Also](https://commons.wikimedia.org/wiki/File:Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_(9098717408).jpg)</font>
 
 ### Rainbow Bee-eater (*Merops ornatus*)
 
 <img src="README_files/figure-gfm/bee_eater_pal-1.png" style="display: block; margin: auto;" />
 
-<img src="images/bee_eater_plot.png" width="65%" /><img src="images/bee_eater.png" width="35%" />
+<img src="images/bee_eater_plot.png" width="65%" /><img src="images/bee_eater_img.png" width="35%" />
 
-Image: [Jim
-Bendon](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_m%26f.jpg)
+<font size="2">Image: [Jim
+Bendon](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_m%26f.jpg)</font>
 
 ### Superb Fairy-wren (*Malurus cyaneus*)
 
 <img src="README_files/figure-gfm/superb_fw_pal-1.png" style="display: block; margin: auto;" />
 
-<img src="images/superb_fw_plot.png" width="65%" /><img src="images/superb_fw.png" width="35%" />
+<img src="images/superb_fairy_wren_plot.png" width="65%" /><img src="images/superb_fairy_wren_img.png" width="35%" />
 
-Image:
-[patrickkavanagh](https://www.flickr.com/photos/patrick_k59/50029104096)
+<font size="2">Image:
+[Patrick_K59](https://commons.wikimedia.org/wiki/File:Superb_Fairy-wren_(Malurus_cyaneus)_(18115879009).jpg)</font>
 
 ### Princess Parrot (*Polytelis alexandrae*)
 
@@ -145,36 +145,37 @@ Image:
 
 <img src="README_files/figure-gfm/oriole_pal-1.png" style="display: block; margin: auto;" />
 
-<img src="images/oriole_plot.png" width="65%" /><img src="images/oriole.png" width="35%" />
+<img src="images/oriole_plot.png" width="65%" /><img src="images/oriole_img.png" width="35%" />
 
-Image:
-[Patrick_K59](https://www.flickr.com/photos/63175631@N02/16640844194)
+<font size="2">Image:
+[Patrick_K59](https://commons.wikimedia.org/wiki/File:Olive-backed_Oriole_(Oriolus_sagittatus)_(16640844194).jpg)</font>
 
 ### Southern Cassowary (*Casuarius casuarius*)
 
 <img src="README_files/figure-gfm/cassowary_pal-1.png" style="display: block; margin: auto;" />
 
-<img src="images/cassowary_plot.png" width="65%" /><img src="images/cassowary.png" width="35%" />
+<img src="images/cassowary_plot.png" width="65%" /><img src="images/cassowary_img.png" width="35%" />
 
-Image: [Nick
-Hobgood](https://commons.wikimedia.org/wiki/File:Casuarius_casuarius_Southern_Cassowary_Papua_New_Guinea_by_Nick_Hobgood.jpg)
+<font size="2">Image: [Nick
+Hobgood](https://commons.wikimedia.org/wiki/File:Casuarius_casuarius_Southern_Cassowary_Papua_New_Guinea_by_Nick_Hobgood.jpg)</font>
 
 ### Eastern Yellow Robin (*Eopsaltria australis*)
 
 <img src="README_files/figure-gfm/yellow_robin_pal-1.png" style="display: block; margin: auto;" />
 
-<img src="images/yellow_robin_plot.png" width="65%" /><img src="images/yellow_robin.png" width="35%" />
+<img src="images/yellow_robin_plot.png" width="65%" /><img src="images/yellow_robin_img.png" width="35%" />
 
-Image:
-[birdsaspoetry](https://www.flickr.com/photos/birdsaspoetry/8452825150)
+<font size="2">Image:
+[Patrick_K59](https://commons.wikimedia.org/wiki/File:Eastern_Yellow_Robin_(Eopsaltria_australis)_(42280188404).jpg)</font>
 
 ### Galah (*Eolophus roseicapilla*)
 
 <img src="README_files/figure-gfm/galah_pal-1.png" style="display: block; margin: auto;" />
 
-<img src="images/galah_plot.png" width="65%" /><img src="images/galah.png" width="35%" />
+<img src="images/galah_plot.png" width="65%" /><img src="images/galah_img.png" width="35%" />
 
-Image: [Fred](https://www.flickr.com/photos/jean_hort/36056886411)
+<font size="2">Image:
+[Calistemon](https://commons.wikimedia.org/wiki/File:Galah_(Eolophus_roseicapilla)_at_Coalseam_Conservation_Park,_August_2022_16.jpg)</font>
 
 ## Continuous palettes
 
