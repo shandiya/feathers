@@ -9,7 +9,6 @@ feathers_palettes <- list(
   eastern_rosella = c("#cd3122", "#f4c623", "#bee183", "#6c905e", "#2f533c", "#b8c9dc", "#2f7ab9"),
   oriole = c("#8a3223", "#bb5645", "#d97878", "#e2aba0", "#d0cfe9", "#a29eb8", "#6c6b75", "#b8a53f", "#93862a", "#4d4019"),
   princess_parrot = c("#7090c9", "#8cb3de", "#afbe9f", "#616020", "#6eb245", "#214917", "#cf2236", "#d683ad"),
-  blue_faced_parrot_finch = c("#AA2E27", "#5B8233", "#2F561C", "#6EAD3A", "#4F52C2", "#464851"),
   superb_fairy_wren = c("#4F3321", "#AA7853", "#D9C4A7", "#B03F05", "#020503"),
   cassowary = c("#BDA14D", "#3EBCB6", "#0169C4", "#153460", "#D5114E", "#A56EB6", "#4B1C57", "#09090C"),
   yellow_robin = c("#E19E00", "#FBEB5B", "#85773A", "#979EB9", "#727B98", "#454B56", "#201B1E"),

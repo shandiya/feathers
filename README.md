@@ -4,6 +4,7 @@ feathers
 <!-- badges: start -->
 
 ![](https://img.shields.io/badge/colours-feathers-D5114E.svg)
+
 <!-- badges: end -->
 
 This package contains colour palettes inspired by the plumage of
@@ -39,8 +40,7 @@ names(feathers_palettes)
     ##  [9] "superb_fairy_wren"       "cassowary"              
     ## [11] "yellow_robin"            "galah"
 
-`get_pal` is a function that returns the chosen palette as a vector of
-hex colour codes.
+`get_pal` returns the chosen palette as a vector of hex colour codes.
 
 ``` r
 get_pal("eastern_rosella")
@@ -48,8 +48,7 @@ get_pal("eastern_rosella")
 
     ## [1] "#cd3122" "#f4c623" "#bee183" "#6c905e" "#2f533c" "#b8c9dc" "#2f7ab9"
 
-`print_pal` is a function that displays the colour palette in the plots
-pane.
+`print_pal` displays the colour palette.
 
 ``` r
 eastern_rosella <- get_pal("eastern_rosella")
@@ -87,6 +86,7 @@ The images below show each palette and the bird that inspired it.
 <img src="README_files/figure-gfm/rosella_pal-1.png" style="display: block; margin: auto;" />
 
 <img src="images/rosella_plot.png" width="65%" /><img src="images/rosella.png" width="35%" />
+
 Image:
 [Mfunnell](https://commons.wikimedia.org/wiki/File:Eastern_Rosella_(Platycercus_eximius)_in_tree.jpg)
 
@@ -95,6 +95,7 @@ Image:
 <img src="README_files/figure-gfm/wanderer_pal-1.png" style="display: block; margin: auto;" />
 
 <img src="images/wanderer_plot.png" width="65%" /><img src="images/wanderer.png" width="35%" />
+
 Image: [Dominic
 Sherony](https://commons.wikimedia.org/wiki/File:Plains-wanderer_(Pedionomus_torquatus)_7_(30547426803).jpg)
 
@@ -103,14 +104,16 @@ Sherony](https://commons.wikimedia.org/wiki/File:Plains-wanderer_(Pedionomus_tor
 <img src="README_files/figure-gfm/spotty_pal-1.png" style="display: block; margin: auto;" />
 
 <img src="images/spotty_plot.png" width="65%" /><img src="images/spotty.png" width="35%" />
+
 Image:
-[Patrick\_K59](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_(Pardalotus_punctatus)_female_(23113043855).jpg)
+[Patrick_K59](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_(Pardalotus_punctatus)_female_(23113043855).jpg)
 
 ### Rose-crowned Fruit-Dove (*Ptilinopus regina*)
 
 <img src="README_files/figure-gfm/rcf_dove_pal-1.png" style="display: block; margin: auto;" />
 
 <img src="images/rcf_dove_plot.png" width="65%" /><img src="images/rcf_dove.png" width="35%" />
+
 Image:
 [Moonlight0551](https://commons.wikimedia.org/wiki/File:Rose-crowned_Fruit-Dove_-_Ptilinopus_regina_(7088988107).jpg)
 
@@ -132,12 +135,6 @@ Bendon](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_m%26f.jpg)
 Image:
 [patrickkavanagh](https://www.flickr.com/photos/patrick_k59/50029104096)
 
-### Blue-faced Parrot-finch (*Erythrura trichroa*)
-
-<img src="README_files/figure-gfm/bfpf_pal-1.png" style="display: block; margin: auto;" />
-
-<img src="images/bf_pf_plot.png" width="65%" />
-
 ### Princess Parrot (*Polytelis alexandrae*)
 
 <img src="README_files/figure-gfm/princess_pal-1.png" style="display: block; margin: auto;" />
@@ -149,14 +146,16 @@ Image:
 <img src="README_files/figure-gfm/oriole_pal-1.png" style="display: block; margin: auto;" />
 
 <img src="images/oriole_plot.png" width="65%" /><img src="images/oriole.png" width="35%" />
+
 Image:
-[Patrick\_K59](https://www.flickr.com/photos/63175631@N02/16640844194)
+[Patrick_K59](https://www.flickr.com/photos/63175631@N02/16640844194)
 
 ### Southern Cassowary (*Casuarius casuarius*)
 
 <img src="README_files/figure-gfm/cassowary_pal-1.png" style="display: block; margin: auto;" />
 
 <img src="images/cassowary_plot.png" width="65%" /><img src="images/cassowary.png" width="35%" />
+
 Image: [Nick
 Hobgood](https://commons.wikimedia.org/wiki/File:Casuarius_casuarius_Southern_Cassowary_Papua_New_Guinea_by_Nick_Hobgood.jpg)
 
@@ -165,6 +164,7 @@ Hobgood](https://commons.wikimedia.org/wiki/File:Casuarius_casuarius_Southern_Ca
 <img src="README_files/figure-gfm/yellow_robin_pal-1.png" style="display: block; margin: auto;" />
 
 <img src="images/yellow_robin_plot.png" width="65%" /><img src="images/yellow_robin.png" width="35%" />
+
 Image:
 [birdsaspoetry](https://www.flickr.com/photos/birdsaspoetry/8452825150)
 
@@ -173,6 +173,7 @@ Image:
 <img src="README_files/figure-gfm/galah_pal-1.png" style="display: block; margin: auto;" />
 
 <img src="images/galah_plot.png" width="65%" /><img src="images/galah.png" width="35%" />
+
 Image: [Fred](https://www.flickr.com/photos/jean_hort/36056886411)
 
 ## Continuous palettes
@@ -204,6 +205,18 @@ colorRampPalette(div_col)(50)
 ```
 
 <img src="README_files/figure-gfm/unnamed-chunk-10-1.png" style="display: block; margin: auto;" />
+
+## Accessibility
+
+There are many tools and packages which simulate different types of
+colour vision deficiency, such as [Viz
+Palette](https://projects.susielu.com/viz-palette),
+[colorblindcheck](https://jakubnowosad.com/colorblindcheck/index.html),
+[prismatic](https://emilhvitfeldt.github.io/prismatic/), and
+[colorblindr](https://github.com/clauswilke/colorblindr). You may find
+these helpful in guiding your decisions about which colours to include
+in your visualisation to make it accessible to as many people as
+possible. Happy plotting!
 
 ## Contribute
 

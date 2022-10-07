@@ -4,18 +4,17 @@ output: github_document
 ---
 
 <!-- badges: start -->
+
 ![](https://img.shields.io/badge/colours-feathers-D5114E.svg)
+
 <!-- badges: end -->
 
-
-```{r, include=FALSE} 
+```{r, include=FALSE}
 library(feathers)
 library(dplyr)
 ```
 
-
-This package contains colour palettes inspired by the plumage of Australian birds. For species exhibiting sexual dimorphism (i.e. males and females look different), I have used female colours. Research on birds has historically been biased towards males, and the choice to use female colours in this package is my way of highlighting the often-overlooked beauty of female birds.  
-
+This package contains colour palettes inspired by the plumage of Australian birds. For species exhibiting sexual dimorphism (i.e. males and females look different), I have used female colours. Research on birds has historically been biased towards males, and the choice to use female colours in this package is my way of highlighting the often-overlooked beauty of female birds.
 
 ## Installation
 
@@ -24,7 +23,6 @@ This package is hosted on GitHub and can be installed using the devtools package
 ```{r, message=FALSE, warning=FALSE, echo = TRUE, results='hide'}
 devtools::install_github(repo = "shandiya/feathers", ref = "main")
 ```
-
 
 ## How to use `feathers`
 
@@ -35,13 +33,13 @@ library(feathers)
 names(feathers_palettes)
 ```
 
-`get_pal` is a function that returns the chosen palette as a vector of hex colour codes.
+`get_pal` returns the chosen palette as a vector of hex colour codes.
 
 ```{r}
 get_pal("eastern_rosella")
 ```
 
-`print_pal` is a function that displays the colour palette in the plots pane.
+`print_pal` displays the colour palette.
 
 ```{r, fig.height=1, fig.width=7, fig.align='center'}
 eastern_rosella <- get_pal("eastern_rosella")
@@ -69,7 +67,7 @@ ggplot(penguins) +
 
 ## Colour palettes
 
-The images below show each palette and the bird that inspired it. 
+The images below show each palette and the bird that inspired it.
 
 ### Eastern Rosella (*Platycercus eximius*)
 
@@ -81,9 +79,9 @@ print_pal(er)
 ```{r rosella_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
 knitr::include_graphics("images/rosella_plot.png")
 knitr::include_graphics("images/rosella.png")
-```  
-Image: [Mfunnell](https://commons.wikimedia.org/wiki/File:Eastern_Rosella_(Platycercus_eximius)_in_tree.jpg)
+```
 
+Image: [Mfunnell](https://commons.wikimedia.org/wiki/File:Eastern_Rosella_(Platycercus_eximius)_in_tree.jpg)
 
 ### Plains-wanderer (*Pedionomus torquatus*)
 
@@ -95,9 +93,9 @@ print_pal(pw)
 ```{r wanderer_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
 knitr::include_graphics("images/wanderer_plot.png")
 knitr::include_graphics("images/wanderer.png")
-```  
-Image: [Dominic Sherony](https://commons.wikimedia.org/wiki/File:Plains-wanderer_(Pedionomus_torquatus)_7_(30547426803).jpg)
+```
 
+Image: [Dominic Sherony](https://commons.wikimedia.org/wiki/File:Plains-wanderer_(Pedionomus_torquatus)_7_(30547426803).jpg)
 
 ### Spotted Pardalote (*Pardalotus punctatus*)
 
@@ -109,9 +107,9 @@ print_pal(sp)
 ```{r spotty_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
 knitr::include_graphics("images/spotty_plot.png")
 knitr::include_graphics("images/spotty.png")
-```  
-Image: [Patrick_K59](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_(Pardalotus_punctatus)_female_(23113043855).jpg)
+```
 
+Image: [Patrick_K59](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_(Pardalotus_punctatus)_female_(23113043855).jpg)
 
 ### Rose-crowned Fruit-Dove (*Ptilinopus regina*)
 
@@ -123,9 +121,9 @@ print_pal(rcfd)
 ```{r rcf_dove_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
 knitr::include_graphics("images/rcf_dove_plot.png")
 knitr::include_graphics("images/rcf_dove.png")
-```  
-Image: [Moonlight0551](https://commons.wikimedia.org/wiki/File:Rose-crowned_Fruit-Dove_-_Ptilinopus_regina_(7088988107).jpg)
+```
 
+Image: [Moonlight0551](https://commons.wikimedia.org/wiki/File:Rose-crowned_Fruit-Dove_-_Ptilinopus_regina_(7088988107).jpg)
 
 ### Rainbow Bee-eater (*Merops ornatus*)
 
@@ -137,10 +135,9 @@ print_pal(be)
 ```{r bee_eater_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
 knitr::include_graphics("images/bee_eater_plot.png")
 knitr::include_graphics("images/bee_eater.png")
-```  
+```
 
 Image: [Jim Bendon](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_m%26f.jpg)
-
 
 ### Superb Fairy-wren (*Malurus cyaneus*)
 
@@ -152,24 +149,13 @@ print_pal(sfw)
 ```{r superb_fw_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
 knitr::include_graphics("images/superb_fw_plot.png")
 knitr::include_graphics("images/superb_fw.png")
-```  
+```
 
 Image: [patrickkavanagh](https://www.flickr.com/photos/patrick_k59/50029104096)
 
 
-### Blue-faced Parrot-finch (*Erythrura trichroa*)
-```{r bfpf_pal, echo = FALSE, message=FALSE, warning=FALSE, fig.height=1, fig.width=6, fig.align='center'}
-bfpf <- get_pal("blue_faced_parrot_finch")
-print_pal(bfpf)
-```
-
-```{r bfpf_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
-knitr::include_graphics("images/bf_pf_plot.png")
-#knitr::include_graphics("images/superb_fw.png")
-```  
-
-
 ### Princess Parrot (*Polytelis alexandrae*)
+
 ```{r princess_pal, echo = FALSE, message=FALSE, warning=FALSE, fig.height=1, fig.width=8, fig.align='center'}
 pp <- get_pal("princess_parrot")
 print_pal(pp)
@@ -178,7 +164,7 @@ print_pal(pp)
 ```{r princess_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
 knitr::include_graphics("images/princess_parrot_plot.png")
 #knitr::include_graphics("images/superb_fw.png")
-```  
+```
 
 ### Olive-backed Oriole (*Oriolus sagittatus*)
 
@@ -190,9 +176,9 @@ print_pal(oriole)
 ```{r oriole_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
 knitr::include_graphics("images/oriole_plot.png")
 knitr::include_graphics("images/oriole.png")
-```  
-Image: [Patrick_K59](https://www.flickr.com/photos/63175631@N02/16640844194)
+```
 
+Image: [Patrick_K59](https://www.flickr.com/photos/63175631@N02/16640844194)
 
 ### Southern Cassowary (*Casuarius casuarius*)
 
@@ -204,9 +190,9 @@ print_pal(cass)
 ```{r cassowary_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
 knitr::include_graphics("images/cassowary_plot.png")
 knitr::include_graphics("images/cassowary.png")
-```  
-Image: [Nick Hobgood](https://commons.wikimedia.org/wiki/File:Casuarius_casuarius_Southern_Cassowary_Papua_New_Guinea_by_Nick_Hobgood.jpg)
+```
 
+Image: [Nick Hobgood](https://commons.wikimedia.org/wiki/File:Casuarius_casuarius_Southern_Cassowary_Papua_New_Guinea_by_Nick_Hobgood.jpg)
 
 ### Eastern Yellow Robin (*Eopsaltria australis*)
 
@@ -218,9 +204,9 @@ print_pal(robin)
 ```{r yellow_robin_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
 knitr::include_graphics("images/yellow_robin_plot.png")
 knitr::include_graphics("images/yellow_robin.png")
-```  
-Image: [birdsaspoetry](https://www.flickr.com/photos/birdsaspoetry/8452825150)
+```
 
+Image: [birdsaspoetry](https://www.flickr.com/photos/birdsaspoetry/8452825150)
 
 ### Galah (*Eolophus roseicapilla*)
 
@@ -232,15 +218,15 @@ print_pal(gal)
 ```{r galah_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
 knitr::include_graphics("images/galah_plot.png")
 knitr::include_graphics("images/galah.png")
-```  
-Image: [Fred](https://www.flickr.com/photos/jean_hort/36056886411)
+```
 
+Image: [Fred](https://www.flickr.com/photos/jean_hort/36056886411)
 
 ## Continuous palettes
 
-The qualitative colour palettes in `feathers` may be converted into sequential or diverging palettes for different types of data visualisation using the `colorRampPalette()` function.  
+The qualitative colour palettes in `feathers` may be converted into sequential or diverging palettes for different types of data visualisation using the `colorRampPalette()` function.
 
-### Sequential palette  
+### Sequential palette
 
 ```{r, results = FALSE}
 # choose end colours
@@ -254,8 +240,7 @@ colorRampPalette(seq_col)(50)
 print_pal(colorRampPalette(seq_col)(50))
 ```
 
-
-### Diverging palette  
+### Diverging palette
 
 ```{r, results = FALSE}
 # choose end and middle colours
@@ -269,10 +254,10 @@ colorRampPalette(div_col)(50)
 print_pal(colorRampPalette(div_col)(50))
 ```
 
+## Accessibility
+
+There are many tools and packages which simulate different types of colour vision deficiency, such as [Viz Palette](https://projects.susielu.com/viz-palette), [colorblindcheck](https://jakubnowosad.com/colorblindcheck/index.html), [prismatic](https://emilhvitfeldt.github.io/prismatic/), and [colorblindr](https://github.com/clauswilke/colorblindr). You may find these helpful in guiding your decisions about which colours to include in your visualisation to make it accessible to as many people as possible. Happy plotting!
 
 ## Contribute
 
-If you would like to contribute to this package or have suggestions for improvement, please contact [ShandiyaB](https://twitter.com/ShandiyaB) on Twitter or submit a pull request. 
-
-
-
+If you would like to contribute to this package or have suggestions for improvement, please contact [ShandiyaB](https://twitter.com/ShandiyaB) on Twitter or submit a pull request.
