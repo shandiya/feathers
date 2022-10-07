@@ -36,9 +36,9 @@ names(feathers_palettes)
     ##  [1] "spotted_pardalote"       "plains_wanderer"        
     ##  [3] "bee_eater"               "rose_crowned_fruit_dove"
     ##  [5] "eastern_rosella"         "oriole"                 
-    ##  [7] "princess_parrot"         "blue_faced_parrot_finch"
-    ##  [9] "superb_fairy_wren"       "cassowary"              
-    ## [11] "yellow_robin"            "galah"
+    ##  [7] "princess_parrot"         "superb_fairy_wren"      
+    ##  [9] "cassowary"               "yellow_robin"           
+    ## [11] "galah"
 
 `get_pal` returns the chosen palette as a vector of hex colour codes.
 
@@ -87,8 +87,8 @@ The images below show each palette and the bird that inspired it.
 
 <img src="images/eastern_rosella_plot.png" width="65%" /><img src="images/eastern_rosella_img.png" width="35%" />
 
-<font size="2">Image: [Duncan
-McCaskill](https://commons.wikimedia.org/wiki/File:Platycercus_eximius_-Canberra,_Australia-8.jpg)</font>
+Image: [Duncan
+McCaskill](https://commons.wikimedia.org/wiki/File:Platycercus_eximius_-Canberra,_Australia-8.jpg)
 
 ### Plains-wanderer (*Pedionomus torquatus*)
 
@@ -96,8 +96,8 @@ McCaskill](https://commons.wikimedia.org/wiki/File:Platycercus_eximius_-Canberra
 
 <img src="images/plains_wanderer_plot.png" width="65%" /><img src="images/plains_wanderer_img.png" width="35%" />
 
-<font size="2">Image: [JJ
-Harrison](https://en.wikipedia.org/wiki/Plains-wanderer#/media/File:Plains-wanderer_female_8173.jpg)</font>
+Image: [JJ
+Harrison](https://en.wikipedia.org/wiki/Plains-wanderer#/media/File:Plains-wanderer_female_8173.jpg)
 
 ### Spotted Pardalote (*Pardalotus punctatus*)
 
@@ -105,8 +105,8 @@ Harrison](https://en.wikipedia.org/wiki/Plains-wanderer#/media/File:Plains-wande
 
 <img src="images/spotted_pardalote_plot.png" width="65%" /><img src="images/spotted_pardalote_img.png" width="35%" />
 
-<font size="2">Image:
-[Patrick_K59](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_(Pardalotus_punctatus)_female_(23113043855).jpg)</font>
+Image:
+[Patrick_K59](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_(Pardalotus_punctatus)_female_(23113043855).jpg)
 
 ### Rose-crowned Fruit-Dove (*Ptilinopus regina*)
 
@@ -114,8 +114,8 @@ Harrison](https://en.wikipedia.org/wiki/Plains-wanderer#/media/File:Plains-wande
 
 <img src="images/rose_crowned_fruit_dove_plot.png" width="65%" /><img src="images/rose_crowned_fruit_dove_img.png" width="35%" />
 
-<font size="2">Image:
-[Sheba_Also](https://commons.wikimedia.org/wiki/File:Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_(9098717408).jpg)</font>
+Image:
+[Sheba_Also](https://commons.wikimedia.org/wiki/File:Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_(9098717408).jpg)
 
 ### Rainbow Bee-eater (*Merops ornatus*)
 
@@ -123,8 +123,8 @@ Harrison](https://en.wikipedia.org/wiki/Plains-wanderer#/media/File:Plains-wande
 
 <img src="images/bee_eater_plot.png" width="65%" /><img src="images/bee_eater_img.png" width="35%" />
 
-<font size="2">Image: [Jim
-Bendon](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_m%26f.jpg)</font>
+Image: [Jim
+Bendon](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_m%26f.jpg)
 
 ### Superb Fairy-wren (*Malurus cyaneus*)
 
@@ -132,8 +132,8 @@ Bendon](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_m%26f.jpg)</fo
 
 <img src="images/superb_fairy_wren_plot.png" width="65%" /><img src="images/superb_fairy_wren_img.png" width="35%" />
 
-<font size="2">Image:
-[Patrick_K59](https://commons.wikimedia.org/wiki/File:Superb_Fairy-wren_(Malurus_cyaneus)_(18115879009).jpg)</font>
+Image:
+[Patrick_K59](https://commons.wikimedia.org/wiki/File:Superb_Fairy-wren_(Malurus_cyaneus)_(18115879009).jpg)
 
 ### Princess Parrot (*Polytelis alexandrae*)
 
@@ -147,8 +147,8 @@ Bendon](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_m%26f.jpg)</fo
 
 <img src="images/oriole_plot.png" width="65%" /><img src="images/oriole_img.png" width="35%" />
 
-<font size="2">Image:
-[Patrick_K59](https://commons.wikimedia.org/wiki/File:Olive-backed_Oriole_(Oriolus_sagittatus)_(16640844194).jpg)</font>
+Image:
+[Patrick_K59](https://commons.wikimedia.org/wiki/File:Olive-backed_Oriole_(Oriolus_sagittatus)_(16640844194).jpg)
 
 ### Southern Cassowary (*Casuarius casuarius*)
 
@@ -156,8 +156,8 @@ Bendon](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_m%26f.jpg)</fo
 
 <img src="images/cassowary_plot.png" width="65%" /><img src="images/cassowary_img.png" width="35%" />
 
-<font size="2">Image: [Nick
-Hobgood](https://commons.wikimedia.org/wiki/File:Casuarius_casuarius_Southern_Cassowary_Papua_New_Guinea_by_Nick_Hobgood.jpg)</font>
+Image: [Nick
+Hobgood](https://commons.wikimedia.org/wiki/File:Casuarius_casuarius_Southern_Cassowary_Papua_New_Guinea_by_Nick_Hobgood.jpg)
 
 ### Eastern Yellow Robin (*Eopsaltria australis*)
 
@@ -165,8 +165,8 @@ Hobgood](https://commons.wikimedia.org/wiki/File:Casuarius_casuarius_Southern_Ca
 
 <img src="images/yellow_robin_plot.png" width="65%" /><img src="images/yellow_robin_img.png" width="35%" />
 
-<font size="2">Image:
-[Patrick_K59](https://commons.wikimedia.org/wiki/File:Eastern_Yellow_Robin_(Eopsaltria_australis)_(42280188404).jpg)</font>
+Image:
+[Patrick_K59](https://commons.wikimedia.org/wiki/File:Eastern_Yellow_Robin_(Eopsaltria_australis)_(42280188404).jpg)
 
 ### Galah (*Eolophus roseicapilla*)
 
@@ -174,8 +174,8 @@ Hobgood](https://commons.wikimedia.org/wiki/File:Casuarius_casuarius_Southern_Ca
 
 <img src="images/galah_plot.png" width="65%" /><img src="images/galah_img.png" width="35%" />
 
-<font size="2">Image:
-[Calistemon](https://commons.wikimedia.org/wiki/File:Galah_(Eolophus_roseicapilla)_at_Coalseam_Conservation_Park,_August_2022_16.jpg)</font>
+Image:
+[Calistemon](https://commons.wikimedia.org/wiki/File:Galah_(Eolophus_roseicapilla)_at_Coalseam_Conservation_Park,_August_2022_16.jpg)
 
 ## Continuous palettes
 
