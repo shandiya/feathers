@@ -221,15 +221,14 @@ possible. Happy plotting!
 
 ## Julia Port
 
-There is also a proposal to add these to Julia as one of the default available color schemes (see 
-https://github.com/JuliaGraphics/ColorSchemes.jl/pull/126). To do so, simply type
+These colour palettes are now available in Julia as part of the default colour schemes (see 
+https://github.com/JuliaGraphics/ColorSchemes.jl/pull/126). Use these colour palettes as you would any other built-in Julia colour scheme:  
 
 ```
 using ColorSchemes
-colorscheme[:cassowary] # or your preferred fowl
+colorscheme[:cassowary] # or your bird of choice
 ```
 
-and use as you would another built-in Julia color scheme.
 
 ## Contribute
 
