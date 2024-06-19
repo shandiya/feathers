@@ -65,13 +65,20 @@ Colour palettes can be used for data visualisation in base `R` and
 ``` r
 # base R
 library(palmerpenguins)
-plot(penguins$flipper_length_mm, penguins$body_mass_g, col = get_pal("rose_crowned_fruit_dove")[factor(penguins$species)], pch = 19)
+
+plot(penguins$flipper_length_mm,
+     penguins$body_mass_g,
+     col = get_pal("rose_crowned_fruit_dove")[factor(penguins$species)],
+     pch = 19)
 
 # ggplot2
 library(ggplot2)
 library(palmerpenguins)
+
 ggplot(penguins) +
-  geom_point(aes(flipper_length_mm, body_mass_g, colour = species)) +
+  geom_point(aes(flipper_length_mm,
+                 body_mass_g,
+                 colour = species)) +
   scale_colour_manual(values = get_pal("rose_crowned_fruit_dove"))
 ```
 
@@ -221,8 +228,7 @@ possible. Happy plotting!
 
 ## Julia Port
 
-These colour palettes are now available in Julia as part of the default colour schemes (see 
-https://github.com/JuliaGraphics/ColorSchemes.jl/pull/126). Use these colour palettes as you would any other built-in Julia colour scheme:  
+These colour palettes are now available in Julia as part of the default colour schemes ([ColorSchemes.jl](https://github.com/JuliaGraphics/ColorSchemes.jl/)). Use these colour palettes as you would any other built-in Julia colour scheme:  
 
 ```
 using ColorSchemes
