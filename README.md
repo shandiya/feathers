@@ -219,6 +219,18 @@ these helpful in guiding your decisions about which colours to include
 in your visualisation to make it accessible to as many people as
 possible. Happy plotting!
 
+## Julia Port
+
+There is also a proposal to add these to Julia as one of the default available color schemes (see 
+https://github.com/JuliaGraphics/ColorSchemes.jl/pull/126). To do so, simply type
+
+```
+using ColorSchemes
+colorscheme[:cassowary] # or your preferred fowl
+```
+
+and use as you would another built-in Julia color scheme.
+
 ## Contribute
 
 If you would like to contribute to this package or have suggestions for
