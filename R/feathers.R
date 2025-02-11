@@ -12,7 +12,8 @@ feathers_palettes <- list(
   superb_fairy_wren = c("#4F3321", "#AA7853", "#D9C4A7", "#B03F05", "#020503"),
   cassowary = c("#BDA14D", "#3EBCB6", "#0169C4", "#153460", "#D5114E", "#A56EB6", "#4B1C57", "#09090C"),
   yellow_robin = c("#E19E00", "#FBEB5B", "#85773A", "#979EB9", "#727B98", "#454B56", "#201B1E"),
-  galah = c("#FFD2CF", "#E9A7BB", "#D05478", "#AAB9CC", "#8390A2", "#4C5766")
+  galah = c("#FFD2CF", "#E9A7BB", "#D05478", "#AAB9CC", "#8390A2", "#4C5766"),
+  blue_winged_kookaburra = c("#b5effb", "#0b7595", "#02407c", "#06213a", "#c45829", "#9C4620", "#622C14", "#d4d8e3", "#b8bcd8", "#ad8d9f", "#725f77")
 )
 
 
