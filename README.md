@@ -38,7 +38,7 @@ names(feathers_palettes)
     ##  [5] "eastern_rosella"         "oriole"                 
     ##  [7] "princess_parrot"         "superb_fairy_wren"      
     ##  [9] "cassowary"               "yellow_robin"           
-    ## [11] "galah"
+    ## [11] "galah"                   "blue_winged_kookaburra"
 
 `get_pal` returns the chosen palette as a vector of hex colour codes.
 
@@ -176,6 +176,14 @@ Image:
 
 Image:
 [Calistemon](https://commons.wikimedia.org/wiki/File:Galah_(Eolophus_roseicapilla)_at_Coalseam_Conservation_Park,_August_2022_16.jpg)
+
+### Blue-winged Kookaburra (*Dacelo leachii*)
+
+<img src="README_files/figure-gfm/kookaburra_pal-1.png" style="display: block; margin: auto;" />
+
+<img src="images/blue_winged_kookaburra_plot.png" width="65%" /><img src="images/blue_winged_kookaburra_img.png" width="35%" />
+Image:
+[John](https://www.flickr.com/photos/shebalso/11337227556/in/photolist-2mWFnMb-igQfLC-2aSw5uf-2jxyurH-q9r9LK-VSnLoi-2mcjA2N-5KRRVT-2oCTQJh-2mjJ685-DU4FfS-2ofmTCz-2hi8qRh-2hghLqs-23gz7rr-yon4md-2bofh1K-kXBzxo-A34jVg-28fcawR-2hrwP4R-2juUSdh-YkAhR6-2jqMbhn-y9yM9T-iiJDCt-2qgJVXi-2mo3wn9-2gbbMcF-2q8d7hu-277w86E-q6DfTb-2jvGzte-2euVCEo-io3es5-2grAQNb-q6mtLN-2nKKNP9-2oEzST2-hq9DEN-qprXxi-2jA8yQM-6fESCG-dxQfzW-2hsTGor-2jgzQvW-25cVNG2-2nDAUjr-io362g-2gdqPYu/)
 
 ## Continuous palettes
 
