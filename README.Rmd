@@ -220,6 +220,19 @@ knitr::include_graphics("images/galah_img.png")
 
 Image: [Calistemon](https://commons.wikimedia.org/wiki/File:Galah_(Eolophus_roseicapilla)_at_Coalseam_Conservation_Park,_August_2022_16.jpg)
 
+### Blue-winged Kookaburra (*Dacelo leachii*)
+
+```{r kookaburra_pal, echo = FALSE, message=FALSE, warning=FALSE, fig.height=1, fig.width=7, fig.align='center'}
+bwk <- get_pal("blue_winged_kookaburra")
+print_pal(bwk)
+```
+
+```{r kookaburra_img, echo = FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width=c('65%', '35%')}
+knitr::include_graphics("images/blue_winged_kookaburra_plot.png")
+knitr::include_graphics("images/blue_winged_kookaburra_img.png")
+```
+Image: [John](https://www.flickr.com/photos/shebalso/11337227556/in/photolist-2mWFnMb-igQfLC-2aSw5uf-2jxyurH-q9r9LK-VSnLoi-2mcjA2N-5KRRVT-2oCTQJh-2mjJ685-DU4FfS-2ofmTCz-2hi8qRh-2hghLqs-23gz7rr-yon4md-2bofh1K-kXBzxo-A34jVg-28fcawR-2hrwP4R-2juUSdh-YkAhR6-2jqMbhn-y9yM9T-iiJDCt-2qgJVXi-2mo3wn9-2gbbMcF-2q8d7hu-277w86E-q6DfTb-2jvGzte-2euVCEo-io3es5-2grAQNb-q6mtLN-2nKKNP9-2oEzST2-hq9DEN-qprXxi-2jA8yQM-6fESCG-dxQfzW-2hsTGor-2jgzQvW-25cVNG2-2nDAUjr-io362g-2gdqPYu/)
+
 ## Continuous palettes
 
 The qualitative colour palettes in `feathers` may be converted into sequential or diverging palettes for different types of data visualisation using the `colorRampPalette()` function.
@@ -256,6 +269,15 @@ print_pal(colorRampPalette(div_col)(50))
 
 There are many tools and packages which simulate different types of colour vision deficiency, such as [Viz Palette](https://projects.susielu.com/viz-palette), [colorblindcheck](https://jakubnowosad.com/colorblindcheck/index.html), [prismatic](https://emilhvitfeldt.github.io/prismatic/), and [colorblindr](https://github.com/clauswilke/colorblindr). You may find these helpful in guiding your decisions about which colours to include in your visualisation to make it accessible to as many people as possible. Happy plotting!
 
+## Julia Port
+
+These colour palettes are now available in Julia as part of the default colour schemes ([ColorSchemes.jl](https://github.com/JuliaGraphics/ColorSchemes.jl/)). Use these colour palettes as you would any other built-in Julia colour scheme:  
+
+```
+using ColorSchemes
+colorscheme[:cassowary] # or your bird of choice
+```
+
 ## Contribute
 
-If you would like to contribute to this package or have suggestions for improvement, please contact [ShandiyaB](https://twitter.com/ShandiyaB) on Twitter or submit a pull request.
+If you would like to contribute to this package or have suggestions for improvement, please [contact me on Bluesky](https://bsky.app/profile/shandiya.bsky.social) or submit a pull request.
