@@ -1,5 +1,3 @@
-
-# libraries
 library(feathers)
 library(ggplot2)
 library(palmerpenguins)
@@ -11,7 +9,8 @@ make_plot <- function(pal_name) {
   ggplot(penguins) +
     geom_point(aes(x = flipper_length_mm,
                    y = body_mass_g,
-                   colour = species:island)) +
+                   colour = species:island),
+               na.rm = TRUE) +
     scale_colour_manual(values = get_pal(pal_name)) +
     theme_minimal() +
     theme(legend.position = "none",
