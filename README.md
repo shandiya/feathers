@@ -20,7 +20,7 @@ This package is hosted on GitHub and can be installed using the devtools
 package:
 
 ``` r
-devtools::install_github(repo = "shandiya/feathers", ref = "main")
+pak::pak("shandiya/feathers")
 ```
 
 ## How to use `feathers`
@@ -55,7 +55,7 @@ eastern_rosella <- get_pal("eastern_rosella")
 print_pal(eastern_rosella)
 ```
 
-<img src="README_files/figure-gfm/unnamed-chunk-5-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-5-1.png" alt="" style="display: block; margin: auto;" />
 
 ## Examples
 
@@ -75,7 +75,7 @@ ggplot(penguins) +
   scale_colour_manual(values = get_pal("rose_crowned_fruit_dove"))
 ```
 
-<img src="README_files/figure-gfm/unnamed-chunk-6-1.png" width="50%" /><img src="README_files/figure-gfm/unnamed-chunk-6-2.png" width="50%" />
+<img src="README_files/figure-gfm/unnamed-chunk-6-1.png" alt="" width="50%" /><img src="README_files/figure-gfm/unnamed-chunk-6-2.png" alt="" width="50%" />
 
 ## Colour palettes
 
@@ -83,105 +83,105 @@ The images below show each palette and the bird that inspired it.
 
 ### Eastern Rosella (*Platycercus eximius*)
 
-<img src="README_files/figure-gfm/rosella_pal-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/rosella_pal-1.png" alt="" style="display: block; margin: auto;" />
 
-<img src="images/eastern_rosella_plot.png" width="65%" /><img src="images/eastern_rosella_img.png" width="35%" />
+<img src="images/eastern_rosella_plot.png" alt="" width="65%" /><img src="images/eastern_rosella_img.png" alt="" width="35%" />
 
 Image: [Duncan
 McCaskill](https://commons.wikimedia.org/wiki/File:Platycercus_eximius_-Canberra,_Australia-8.jpg)
 
 ### Plains-wanderer (*Pedionomus torquatus*)
 
-<img src="README_files/figure-gfm/wanderer_pal-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/wanderer_pal-1.png" alt="" style="display: block; margin: auto;" />
 
-<img src="images/plains_wanderer_plot.png" width="65%" /><img src="images/plains_wanderer_img.png" width="35%" />
+<img src="images/plains_wanderer_plot.png" alt="" width="65%" /><img src="images/plains_wanderer_img.png" alt="" width="35%" />
 
 Image: [JJ
 Harrison](https://en.wikipedia.org/wiki/Plains-wanderer#/media/File:Plains-wanderer_female_8173.jpg)
 
 ### Spotted Pardalote (*Pardalotus punctatus*)
 
-<img src="README_files/figure-gfm/spotty_pal-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/spotty_pal-1.png" alt="" style="display: block; margin: auto;" />
 
-<img src="images/spotted_pardalote_plot.png" width="65%" /><img src="images/spotted_pardalote_img.png" width="35%" />
+<img src="images/spotted_pardalote_plot.png" alt="" width="65%" /><img src="images/spotted_pardalote_img.png" alt="" width="35%" />
 
 Image:
 [Patrick_K59](https://commons.wikimedia.org/wiki/File:Spotted_Pardalote_(Pardalotus_punctatus)_female_(23113043855).jpg)
 
 ### Rose-crowned Fruit-Dove (*Ptilinopus regina*)
 
-<img src="README_files/figure-gfm/rcf_dove_pal-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/rcf_dove_pal-1.png" alt="" style="display: block; margin: auto;" />
 
-<img src="images/rose_crowned_fruit_dove_plot.png" width="65%" /><img src="images/rose_crowned_fruit_dove_img.png" width="35%" />
+<img src="images/rose_crowned_fruit_dove_plot.png" alt="" width="65%" /><img src="images/rose_crowned_fruit_dove_img.png" alt="" width="35%" />
 
 Image:
 [Sheba_Also](https://commons.wikimedia.org/wiki/File:Rose_crowned_Fruit_Dove_at_Australia_Zoo-1_(9098717408).jpg)
 
 ### Rainbow Bee-eater (*Merops ornatus*)
 
-<img src="README_files/figure-gfm/bee_eater_pal-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/bee_eater_pal-1.png" alt="" style="display: block; margin: auto;" />
 
-<img src="images/bee_eater_plot.png" width="65%" /><img src="images/bee_eater_img.png" width="35%" />
+<img src="images/bee_eater_plot.png" alt="" width="65%" /><img src="images/bee_eater_img.png" alt="" width="35%" />
 
 Image: [Jim
 Bendon](https://commons.wikimedia.org/wiki/File:Rainbow_bee_eater_m%26f.jpg)
 
 ### Superb Fairy-wren (*Malurus cyaneus*)
 
-<img src="README_files/figure-gfm/superb_fw_pal-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/superb_fw_pal-1.png" alt="" style="display: block; margin: auto;" />
 
-<img src="images/superb_fairy_wren_plot.png" width="65%" /><img src="images/superb_fairy_wren_img.png" width="35%" />
+<img src="images/superb_fairy_wren_plot.png" alt="" width="65%" /><img src="images/superb_fairy_wren_img.png" alt="" width="35%" />
 
 Image:
 [Patrick_K59](https://commons.wikimedia.org/wiki/File:Superb_Fairy-wren_(Malurus_cyaneus)_(18115879009).jpg)
 
 ### Princess Parrot (*Polytelis alexandrae*)
 
-<img src="README_files/figure-gfm/princess_pal-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/princess_pal-1.png" alt="" style="display: block; margin: auto;" />
 
-<img src="images/princess_parrot_plot.png" width="65%" />
+<img src="images/princess_parrot_plot.png" alt="" width="65%" />
 
 ### Olive-backed Oriole (*Oriolus sagittatus*)
 
-<img src="README_files/figure-gfm/oriole_pal-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/oriole_pal-1.png" alt="" style="display: block; margin: auto;" />
 
-<img src="images/oriole_plot.png" width="65%" /><img src="images/oriole_img.png" width="35%" />
+<img src="images/oriole_plot.png" alt="" width="65%" /><img src="images/oriole_img.png" alt="" width="35%" />
 
 Image:
 [Patrick_K59](https://commons.wikimedia.org/wiki/File:Olive-backed_Oriole_(Oriolus_sagittatus)_(16640844194).jpg)
 
 ### Southern Cassowary (*Casuarius casuarius*)
 
-<img src="README_files/figure-gfm/cassowary_pal-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/cassowary_pal-1.png" alt="" style="display: block; margin: auto;" />
 
-<img src="images/cassowary_plot.png" width="65%" /><img src="images/cassowary_img.png" width="35%" />
+<img src="images/cassowary_plot.png" alt="" width="65%" /><img src="images/cassowary_img.png" alt="" width="35%" />
 
 Image: [Nick
 Hobgood](https://commons.wikimedia.org/wiki/File:Casuarius_casuarius_Southern_Cassowary_Papua_New_Guinea_by_Nick_Hobgood.jpg)
 
 ### Eastern Yellow Robin (*Eopsaltria australis*)
 
-<img src="README_files/figure-gfm/yellow_robin_pal-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/yellow_robin_pal-1.png" alt="" style="display: block; margin: auto;" />
 
-<img src="images/yellow_robin_plot.png" width="65%" /><img src="images/yellow_robin_img.png" width="35%" />
+<img src="images/yellow_robin_plot.png" alt="" width="65%" /><img src="images/yellow_robin_img.png" alt="" width="35%" />
 
 Image:
 [Patrick_K59](https://commons.wikimedia.org/wiki/File:Eastern_Yellow_Robin_(Eopsaltria_australis)_(42280188404).jpg)
 
 ### Galah (*Eolophus roseicapilla*)
 
-<img src="README_files/figure-gfm/galah_pal-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/galah_pal-1.png" alt="" style="display: block; margin: auto;" />
 
-<img src="images/galah_plot.png" width="65%" /><img src="images/galah_img.png" width="35%" />
+<img src="images/galah_plot.png" alt="" width="65%" /><img src="images/galah_img.png" alt="" width="35%" />
 
 Image:
 [Calistemon](https://commons.wikimedia.org/wiki/File:Galah_(Eolophus_roseicapilla)_at_Coalseam_Conservation_Park,_August_2022_16.jpg)
 
 ### Blue-winged Kookaburra (*Dacelo leachii*)
 
-<img src="README_files/figure-gfm/kookaburra_pal-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/kookaburra_pal-1.png" alt="" style="display: block; margin: auto;" />
 
-<img src="images/blue_winged_kookaburra_plot.png" width="65%" /><img src="images/blue_winged_kookaburra_img.png" width="35%" />
+<img src="images/blue_winged_kookaburra_plot.png" alt="" width="65%" /><img src="images/blue_winged_kookaburra_img.png" alt="" width="35%" />
 Image:
 [John](https://www.flickr.com/photos/shebalso/11337227556/in/photolist-2mWFnMb-igQfLC-2aSw5uf-2jxyurH-q9r9LK-VSnLoi-2mcjA2N-5KRRVT-2oCTQJh-2mjJ685-DU4FfS-2ofmTCz-2hi8qRh-2hghLqs-23gz7rr-yon4md-2bofh1K-kXBzxo-A34jVg-28fcawR-2hrwP4R-2juUSdh-YkAhR6-2jqMbhn-y9yM9T-iiJDCt-2qgJVXi-2mo3wn9-2gbbMcF-2q8d7hu-277w86E-q6DfTb-2jvGzte-2euVCEo-io3es5-2grAQNb-q6mtLN-2nKKNP9-2oEzST2-hq9DEN-qprXxi-2jA8yQM-6fESCG-dxQfzW-2hsTGor-2jgzQvW-25cVNG2-2nDAUjr-io362g-2gdqPYu/)
 
@@ -201,7 +201,7 @@ seq_col <- get_pal("eastern_rosella")[c(2,7)]
 colorRampPalette(seq_col)(50)
 ```
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-1.png" alt="" style="display: block; margin: auto;" />
 
 ### Diverging palette
 
@@ -213,7 +213,7 @@ div_col <- get_pal("oriole")[c(1,5,10)]
 colorRampPalette(div_col)(50)
 ```
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-1.png" alt="" style="display: block; margin: auto;" />
 
 ## Accessibility
 
