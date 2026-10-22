@@ -56,7 +56,7 @@ print_pal <- function(x) {
     geom_tile(aes(x = x, y = y),
               fill = x,
               colour = "white",
-              size = 3) +
+              linewidth = 3) +
     theme_void() +
     theme(legend.position = "none")
 
